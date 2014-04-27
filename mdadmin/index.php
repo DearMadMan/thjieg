@@ -18,9 +18,9 @@ if($act=="goods_list")
     $pageNow=intval($_GET['pageNow']);
     $pagePath='index.php';
     $dfNum=20;
-    $sql="select * from goods order by goods_id desc";
+    $sql="select a.*,b.type_name from article as a left join article_type as b on a.article_type_id=b.article_type_id order by article_id desc";
     $db=$GLOBALS['db'];
-    $pagetool->setNeed($db,$sql,$dfNum,$pageNow,$pagePath,"goods_id");
+    $pagetool->setNeed($db,$sql,$dfNum,$pageNow,$pagePath,"a.article_id");
     $res=$pagetool->getAll();
     if(!empty($res))
     {
@@ -70,11 +70,8 @@ elseif($act=="site_edit")
 elseif($act=="goods_add")
 {
     $categroy_list=GetCategroyList();
-    $start_time=date("d-m-Y");
-    $end_time=date("d-m-Y",time()+24*60*60);
+
     $smarty->assign("categroy_list",$categroy_list);
-    $smarty->assign("start_time",$start_time);
-    $smarty->assign("end_time",$end_time);
     $smarty->display("goods_add.mad");
 }
 elseif($act=="article_type_list")

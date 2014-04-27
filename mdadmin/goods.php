@@ -28,26 +28,16 @@ if($act=="post_add")
 
         }
     }
-    $fileds="categroy_id,goods_name,shop_price,market_price,goods_img,goods_dis,goods_like,goods_collect,goods_href,user_want,add_time,start_time,end_time,goods_index";
+    $fileds="article_type_id,title,content,add_time";
     $datas=array(zero($_POST['categroy_id']),
                  $_POST['goods_name'],
-                 floatval($_POST['shop_price']),
-                 floatval($_POST['market_price']),
-                 $goods_img,
-                 $_POST['goods_dis'],
-                 zero($_POST['goods_like']),
-                  zero($_POST['goods_collect']),
-                  $_POST['goods_href'],
-                   zero($_POST['user_want']),
-                   time(),
-                   strtotime($_POST['start_time']),
-                   strtotime($_POST['end_time']),
-                   zero($_POST['goods_index'])
+                 $_POST['content'],
+                 time()
         );
-   $res= $db->AutoExcute("goods","",$fileds,$datas);
+   $res= $db->AutoExcute("article","",$fileds,$datas);
    if($res)
    {
-    ShowTips("商品添加成功！");
+    ShowTips("文章添加成功！");
    }
 }
 elseif($act=="post_edit")

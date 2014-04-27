@@ -4,7 +4,7 @@ require_once("../inc/init.php");
 $smarty->setTemplateDir(ROOT_PATH."mdadmin".DIRECTORY_SEPARATOR."template".DIRECTORY_SEPARATOR);
 
 
-
+$smarty->assign('ckeditor_path',"../plugin/ckeditor");
 $smarty->assign('view_path',"template");
 $smarty->assign('vp',"template");
 $smarty->assign("plugin_path","plugin");

@@ -1,39 +1,93 @@
-<!DOCTYPE html>
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-27 19:39:45
+         compiled from "D:\wamp\www\test\mdadmin\template\goods_add.mad" */ ?>
+<?php /*%%SmartyHeaderCode:28799535cdf20d3c4d9-92179306%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '04d8fe143bd901afa0e8cb4e84c09d692586deb3' => 
+    array (
+      0 => 'D:\\wamp\\www\\test\\mdadmin\\template\\goods_add.mad',
+      1 => 1398598780,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '28799535cdf20d3c4d9-92179306',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.16',
+  'unifunc' => 'content_535cdf20ede4b7_12885763',
+  'variables' => 
+  array (
+    'vp' => 0,
+    'ckeditor_path' => 0,
+    'categroy_list' => 0,
+    'v' => 0,
+    'start_time' => 0,
+    'end_time' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_535cdf20ede4b7_12885763')) {function content_535cdf20ede4b7_12885763($_smarty_tpl) {?><!DOCTYPE html>
 <html lang="en">
 
 <head>
     <title>Matrix Admin</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{$vp}/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="{$vp}/css/bootstrap-responsive.min.css" />
-    <link rel="stylesheet" href="{$vp}/css/fullcalendar.css" />
-    <link rel="stylesheet" href="{$vp}/css/matrix-style.css" />
-    <link rel="stylesheet" href="{$vp}/css/matrix-media.css" />
-    <link rel="stylesheet" href="{$vp}/css/select2.css">
-    <link rel="stylesheet" href="{$vp}/css/uniform.css">
-    <link href="{$vp}/font-awesome/css/font-awesome.css" rel="stylesheet" />
-    <link rel="stylesheet" href="{$vp}/css/jquery.gritter.css" />
-    <link href='{$vp}/css/google.css' rel='stylesheet' type='text/css'>
-    <script src="{$vp}/js/jquery.min.js"></script>
-    <script src="{$vp}/js/jquery.ui.custom.js"></script>
-    <script src="{$vp}/js/jquery.uniform.js"></script>
-    <script src="{$vp}/js/bootstrap.min.js"></script>
-    <script src="{$vp}/js/jquery.flot.min.js"></script>
-    <script src="{$vp}/js/jquery.flot.resize.min.js"></script>
-    <script src="{$vp}/js/matrix.js"></script>
-    <script src="{$vp}/js/select2.min.js"></script>
-    <script type="text/javascript" src="{$ckeditor_path}/ckeditor.js"></script>
-    <link rel="stylesheet" href="{$vp}/css/datepicker.css" />
-    <script src="{$vp}/js/bootstrap-datepicker.js"></script>
+    <link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/css/fullcalendar.css" />
+    <link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/css/matrix-style.css" />
+    <link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/css/matrix-media.css" />
+    <link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/css/select2.css">
+    <link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/css/uniform.css">
+    <link href="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/css/jquery.gritter.css" />
+    <link href='<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/css/google.css' rel='stylesheet' type='text/css'>
+    <script src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/js/jquery.min.js"></script>
+    <script src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/js/jquery.ui.custom.js"></script>
+    <script src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/js/jquery.uniform.js"></script>
+    <script src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/js/bootstrap.min.js"></script>
+    <script src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/js/jquery.flot.min.js"></script>
+    <script src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/js/jquery.flot.resize.min.js"></script>
+    <script src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/js/matrix.js"></script>
+    <script src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/js/select2.min.js"></script>
+    <script type="text/javascript" src="<?php echo $_smarty_tpl->tpl_vars['ckeditor_path']->value;?>
+/ckeditor.js"></script>
+    <link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/css/datepicker.css" />
+    <script src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/js/bootstrap-datepicker.js"></script>
 
 </head>
 
 <body>
-    {include file='header.mad'} {include file='menu.mad'}
+    <?php echo $_smarty_tpl->getSubTemplate ('header.mad', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+ <?php echo $_smarty_tpl->getSubTemplate ('menu.mad', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
     <!--main-container-part-->
     <div id="content">
-        {include file="breadcrumbs.mad"}
+        <?php echo $_smarty_tpl->getSubTemplate ("breadcrumbs.mad", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
         <div class="container-fluid">
 
             <div class="row-fluid">
@@ -69,9 +123,15 @@
                                         <ul class="select2-results"></ul>
                                     </div>
                                     <select name="categroy_id" style="display:none;">
-                                        {foreach $categroy_list as $v}
-                                        <option value="{$v.article_type_id}">{$v.type_name}</option>
-                                        {/foreach}
+                                        <?php  $_smarty_tpl->tpl_vars['v'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['v']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['categroy_list']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['v']->key => $_smarty_tpl->tpl_vars['v']->value) {
+$_smarty_tpl->tpl_vars['v']->_loop = true;
+?>
+                                        <option value="<?php echo $_smarty_tpl->tpl_vars['v']->value['article_type_id'];?>
+"><?php echo $_smarty_tpl->tpl_vars['v']->value['type_name'];?>
+</option>
+                                        <?php } ?>
                                     </select>
 
                                 </div>
@@ -149,7 +209,9 @@
                         <div class="control-group">
                             <label class="control-label">展示起始时间(dd-mm)</label>
                             <div class="controls">
-                                <input name="start_time" type="text" data-date="{$start_time}" data-date-format="dd-mm-yyyy" value="{$start_time}" class="datepicker span11">
+                                <input name="start_time" type="text" data-date="<?php echo $_smarty_tpl->tpl_vars['start_time']->value;?>
+" data-date-format="dd-mm-yyyy" value="<?php echo $_smarty_tpl->tpl_vars['start_time']->value;?>
+" class="datepicker span11">
                                 <span class="help-block">Date with Formate of (dd-mm-yy)</span>
                             </div>
                         </div>
@@ -157,7 +219,9 @@
                         <div class="control-group">
                             <label class="control-label">展示结束时间(dd-mm)</label>
                             <div class="controls">
-                                <input name="end_time" type="text" data-date="{$end_time}" data-date-format="dd-mm-yyyy" value="{$end_time}" class="datepicker span11">
+                                <input name="end_time" type="text" data-date="<?php echo $_smarty_tpl->tpl_vars['end_time']->value;?>
+" data-date-format="dd-mm-yyyy" value="<?php echo $_smarty_tpl->tpl_vars['end_time']->value;?>
+" class="datepicker span11">
                                 <span class="help-block">Date with Formate of (dd-mm-yy)</span>
                             </div>
                         </div>
@@ -185,9 +249,11 @@
     </div>
 
 </div>
-<script src="{$vp}/js/article_edit.js"></script>
-<!--end-main-container-part-->{include file='footer.mad'}
+<script src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/js/article_edit.js"></script>
+<!--end-main-container-part--><?php echo $_smarty_tpl->getSubTemplate ('footer.mad', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
 
 </body>
 <script></script>
-</html>
+</html><?php }} ?>
