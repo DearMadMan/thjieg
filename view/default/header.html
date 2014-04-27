@@ -15,23 +15,19 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav navbar-right">
 
-                    <li><a href="about.html">关于我们</a>
+                    <li><a href="index.php">关于我们</a>
                     </li>
-                    <li><a href="services.html">服务项目</a>
+                    {foreach $article_types as $v}
+                    <li><a href="article.php?article_type_id={$v.article_type_id}">{$v.type_name}</a>
                     </li>
-
-                       <li><a href="contact.php">服务团队</a>
+                    {/foreach}
+                     <li><a href="contact.php">联系我们</a>
+                    }
                     </li>
-                       <li><a href="contact.php">服务活动</a>
+                    <!--
+                       <li><a href="article.php?article_type_id=1">图片展示</a>
                     </li>
-                       <li><a href="contact.php">成功案例</a>
-                    </li>
-
-                    <li><a href="contact.php">行业资讯</a>
-                    </li>
-
-                       <li><a href="contact.php">图片展示</a>
-                    </li>
+                    -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

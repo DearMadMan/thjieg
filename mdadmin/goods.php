@@ -60,29 +60,21 @@ elseif($act=="post_edit")
 
         }
     }
-    $fileds="categroy_id,goods_name,shop_price,market_price,goods_dis,goods_like,goods_collect,goods_href,user_want,start_time,end_time,goods_index";
+    $fileds="article_type_id,title,content";
     $datas=array(zero($_POST['categroy_id']),
                  $_POST['goods_name'],
-                 floatval($_POST['shop_price']),
-                 floatval($_POST['market_price']),
-                 $_POST['goods_dis'],
-                 zero($_POST['goods_like']),
-                  zero($_POST['goods_collect']),
-                  $_POST['goods_href'],
-                   zero($_POST['user_want']),
-                   strtotime($_POST['start_time']),
-                   strtotime($_POST['end_time']),
-                    zero($_POST['goods_index'])
+                 $_POST['content']
+
         );
     if(!empty($goods_img))
     {
          $fileds= $fileds.",goods_img";
          $datas[]=$goods_img;
     }
-   $res= $db->AutoExcute("goods","goods_id=".zero($_POST['goods_id']),$fileds,$datas,"update");
+   $res= $db->AutoExcute("article","article_id=".zero($_POST['goods_id']),$fileds,$datas,"update");
    if($res)
    {
-    ShowTips("商品修改成功！");
+    ShowTips("文章修改成功！");
    }
    else
    {
@@ -91,10 +83,10 @@ elseif($act=="post_edit")
 }
 elseif($act=="goods_delete")
 {
-   $res= $db->AutoExcute("goods","goods_id=".zero($_REQUEST['goods_id']));
+   $res= $db->AutoExcute("article","article_id=".zero($_REQUEST['goods_id']));
    if($res)
    {
-    ShowTips("商品删除成功！");
+    ShowTips("文章删除成功！");
    }
    else
    {
@@ -122,9 +114,9 @@ elseif($act=="post_categroy_add")
 elseif($act=="post_categroy_edit")
 {
   $categroy_id=0;
-   if(CheckString($_REQUEST['categroy_id']))
+   if(isset($_REQUEST['categroy_id']))
    {
-       $categroy_id=CheckInt($_REQUEST['categroy_id']) ;
+       $categroy_id=intval($_REQUEST['categroy_id']) ;
    }
    $sql="select * from article_type where article_type_id='$categroy_id'";
    $res=$db->GetRow($sql);
@@ -132,11 +124,11 @@ elseif($act=="post_categroy_edit")
    {
     ShowTips("该分类不存在,请重新尝试!");
    }
-   if(!CheckString($_REQUEST['categroy_name']))
+   if(empty($_REQUEST['categroy_name']))
    {
      ShowTips("分类名为空！");
    }
-   $sql="update categroy set categroy_name='".$_REQUEST['categroy_name']."' where categroy_id=$categroy_id";
+   $sql="update article_type set type_name='".$_REQUEST['categroy_name']."' where article_type_id=$categroy_id";
    $res=$db->Query($sql);
    if($db->GetAffectedRows()>0)
    {
@@ -150,7 +142,7 @@ elseif($act=="post_categroy_edit")
 }
 elseif($act=="goods_categroy_delete")
 {
-   $res= $db->AutoExcute("categroy","categroy_id=".zero($_REQUEST['categroy_id']));
+   $res= $db->AutoExcute("article_type","article_type_id=".zero($_REQUEST['categroy_id']));
    if($res)
    {
     ShowTips("分类删除成功！");

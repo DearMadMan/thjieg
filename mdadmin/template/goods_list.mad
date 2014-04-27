@@ -84,7 +84,7 @@
                                             编辑
                                         </a>
                                         &nbsp;
-                                        <a href="goods.php?act=goods_delete&goods_id={$v.article_id}" onclick="if(!confirm('确定要删除该数商品吗'))return false;">
+                                        <a href="goods.php?act=goods_delete&goods_id={$v.article_id}" onclick="if(!confirm('确定要删除该文章吗'))return false;">
                                             <i class="icon-trash"></i>
                                             删除
                                         </a>

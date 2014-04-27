@@ -18,13 +18,19 @@ if($act=="goods_list")
     $pageNow=intval($_GET['pageNow']);
     $pagePath='index.php';
     $dfNum=20;
-    $sql="select a.*,b.type_name from article as a left join article_type as b on a.article_type_id=b.article_type_id order by article_id desc";
+    $sql="select a.*,b.type_name from article as a left join article_type as b on a.article_type_id=b.article_type_id order by a.article_id desc";
     $db=$GLOBALS['db'];
     $pagetool->setNeed($db,$sql,$dfNum,$pageNow,$pagePath,"a.article_id");
     $res=$pagetool->getAll();
     if(!empty($res))
     {
        $smarty->assign("goods_list",$res['res']);
+       $smarty->assign("pre",$res['pre']);
+       $smarty->assign("next",$res['next']);
+       $smarty->assign("more",$res['more']);
+       $smarty->assign("last",$res['last']);
+       $smarty->assign("now",$res['now']);
+
     }
     else
     {
@@ -94,11 +100,11 @@ elseif($act=="goods_gather")
 elseif($act=="goods_categroy_edit")
 {
    $categroy_id=0;
-   if(CheckString($_REQUEST['categroy_id']))
+   if(isset($_REQUEST['article_type_id']))
    {
-       $categroy_id=CheckInt($_REQUEST['categroy_id']) ;
+       $categroy_id=intval($_REQUEST['article_type_id']) ;
    }
-   $sql="select * from categroy where categroy_id='$categroy_id'";
+   $sql="select * from article_type where article_type_id='$categroy_id'";
    $res=$db->GetRow($sql);
    if(empty($res))
    {
@@ -110,23 +116,20 @@ elseif($act=="goods_categroy_edit")
 elseif($act=="goods_edit")
 {
    $goods_id=0;
-   if(CheckString($_REQUEST['goods_id']))
+   if(isset($_REQUEST['goods_id']))
    {
-       $goods_id=CheckInt($_REQUEST['goods_id']) ;
+       $goods_id=intval($_REQUEST['goods_id']) ;
    }
-   $sql="select * from goods where goods_id='$goods_id'";
+   $sql="select * from article where article_id='$goods_id'";
    $res=$db->GetRow($sql);
    if(empty($res))
    {
-    ShowTips("该商品不存在,请重新尝试!");
+    ShowTips("该文章不存在,请重新尝试!");
    }
 
    $categroy_list=GetCategroyList();
-    $start_time=date("d-m-Y",$res['start_time']);
-    $end_time=date("d-m-Y",$res['end_time']);
+
     $smarty->assign("categroy_list",$categroy_list);
-    $smarty->assign("start_time",$start_time);
-    $smarty->assign("end_time",$end_time);
    $smarty->assign("goods",$res);
    $smarty->display("goods_edit.mad");
 }
@@ -141,6 +144,7 @@ elseif($act=="login")
 }
 else
 {
+    location("index.php?act=goods_list");
     $smarty->display("index.mad");
 }
 

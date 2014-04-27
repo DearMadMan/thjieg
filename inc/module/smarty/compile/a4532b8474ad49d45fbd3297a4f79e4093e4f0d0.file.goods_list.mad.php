@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-27 19:51:28
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-27 20:20:57
          compiled from "D:\wamp\www\test\mdadmin\template\goods_list.mad" */ ?>
 <?php /*%%SmartyHeaderCode:4546535ceef6d5b111-98129796%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a4532b8474ad49d45fbd3297a4f79e4093e4f0d0' => 
     array (
       0 => 'D:\\wamp\\www\\test\\mdadmin\\template\\goods_list.mad',
-      1 => 1398599484,
+      1 => 1398601228,
       2 => 'file',
     ),
   ),
@@ -152,7 +152,7 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
                                         </a>
                                         &nbsp;
                                         <a href="goods.php?act=goods_delete&goods_id=<?php echo $_smarty_tpl->tpl_vars['v']->value['article_id'];?>
-" onclick="if(!confirm('确定要删除该数商品吗'))return false;">
+" onclick="if(!confirm('确定要删除该文章吗'))return false;">
                                             <i class="icon-trash"></i>
                                             删除
                                         </a>

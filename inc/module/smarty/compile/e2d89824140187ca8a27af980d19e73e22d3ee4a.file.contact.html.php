@@ -1,4 +1,29 @@
-<!DOCTYPE html>
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-27 22:43:08
+         compiled from "D:\wamp\www\test\view\default\contact.html" */ ?>
+<?php /*%%SmartyHeaderCode:24355535d1756aa7408-16074476%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'e2d89824140187ca8a27af980d19e73e22d3ee4a' => 
+    array (
+      0 => 'D:\\wamp\\www\\test\\view\\default\\contact.html',
+      1 => 1398609786,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '24355535d1756aa7408-16074476',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.16',
+  'unifunc' => 'content_535d1756af1795_85243208',
+  'variables' => 
+  array (
+    'vp' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_535d1756af1795_85243208')) {function content_535d1756af1795_85243208($_smarty_tpl) {?><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -9,15 +34,19 @@
     <title>联系我们 - 太和县桔梗产业集群技术服务中心</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{$vp}/css/bootstrap.css" rel="stylesheet">
+    <link href="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/css/bootstrap.css" rel="stylesheet">
 
     <!-- Add custom CSS here -->
-    <link href="{$vp}/css/modern-business.css" rel="stylesheet">
-    <link href="{$vp}/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/css/modern-business.css" rel="stylesheet">
+    <link href="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   </head>
 
   <body>
-  {include file="header.html"}
+  <?php echo $_smarty_tpl->getSubTemplate ("header.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+
 
     <!-- Page Content -->
 
@@ -107,9 +136,13 @@
     </div><!-- /.container -->
 
     <!-- JavaScript -->
-    <script src="{$vp}/js/jquery-1.10.2.js"></script>
-    <script src="{$vp}/js/bootstrap.js"></script>
-    <script src="{$vp}/js/modern-business.js"></script>
+    <script src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/js/jquery-1.10.2.js"></script>
+    <script src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/js/bootstrap.js"></script>
+    <script src="<?php echo $_smarty_tpl->tpl_vars['vp']->value;?>
+/js/modern-business.js"></script>
 
   </body>
 </html>
+<?php }} ?>

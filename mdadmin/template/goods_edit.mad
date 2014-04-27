@@ -26,6 +26,7 @@
 
     <link rel="stylesheet" href="{$vp}/css/datepicker.css" />
     <script src="{$vp}/js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="{$ckeditor_path}/ckeditor.js"></script>
 
 </head>
 
@@ -41,19 +42,19 @@
                     <div class="widget-title">
                         <span class="icon"> <i class="icon-align-justify"></i>
                         </span>
-                        <h5>修改商品</h5>
+                        <h5>修改文章</h5>
                     </div>
                     <div class="widget-content nopadding">
                         <form action="goods.php?act=post_edit" method="POST" enctype='multipart/form-data' class="form-horizontal">
 
                             <div class="control-group">
-                                <label class="control-label">商品名称</label>
+                                <label class="control-label">文章标题</label>
                                 <div class="controls">
-                                    <input name="goods_name" type="text" value="{$goods.goods_name}" class="span11" placeholder="商品名称"></div>
+                                    <input name="goods_name" type="text" value="{$goods.title}" class="span11" placeholder="商品名称"></div>
                             </div>
 
                             <div class="control-group">
-                                <label class="control-label">商品分类</label>
+                                <label class="control-label">文章分类</label>
                                 <div class="controls">
                                     <div class="select2-container">
                                         <!--     <a href="#" onclick="return false;" class="select2-choice" tabindex="0">
@@ -70,14 +71,14 @@
                                     </div>
                                     <select name="categroy_id" style="display:none;">
                                         {foreach $categroy_list as $v}
-                                        <option value="{$v.categroy_id}" {if $v.categroy_id eq $goods.categroy_id}selected{/if} >{$v.categroy_name}</option>
+                                        <option value="{$v.article_type_id}" {if $v.article_type_id eq $goods.article_type_id}selected{/if} >{$v.type_name}</option>
                                         {/foreach}
                                     </select>
 
                                 </div>
                             </div>
                         </div>
-
+<!--
                         <div class="control-group">
                             <label class="control-label">商品图片</label>
                             <div class="controls">
@@ -158,13 +159,23 @@
                                 <span class="help-block">Date with Formate of (dd-mm-yy)</span>
                             </div>
                         </div>
+-->
+         <div class="control-group">
+                                <label class="control-label">文章内容</label>
+                                <div class="controls">
+                                  <textarea id="article_content" name="content" class="span11">{$goods.content}</textarea>
+                            </div>
+
+              </div>
+
+
 
                         <div class="form-actions ">
                             <button type="submit" class="btn btn-success span3 offset3">Save</button>
                             <button type="reset" class="btn btn-primary span3">Reset</button>
 
                         </div>
-                        <input type="hidden" name="goods_id" value="{$goods.goods_id}"></form>
+                        <input type="hidden" name="goods_id" value="{$goods.article_id}"></form>
                 </div>
 
             </div>
@@ -173,7 +184,7 @@
     </div>
 
 </div>
-
+<script src="{$vp}/js/article_edit.js"></script>
 <!--end-main-container-part-->{include file='footer.mad'}</body>
 
 </html>

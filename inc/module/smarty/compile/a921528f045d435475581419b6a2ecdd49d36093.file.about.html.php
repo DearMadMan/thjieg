@@ -1,4 +1,25 @@
-<!DOCTYPE html>
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-27 22:39:57
+         compiled from "D:\wamp\www\test\view\default\about.html" */ ?>
+<?php /*%%SmartyHeaderCode:1412535d16bd230215-87004222%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'a921528f045d435475581419b6a2ecdd49d36093' => 
+    array (
+      0 => 'D:\\wamp\\www\\test\\view\\default\\about.html',
+      1 => 1398586773,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '1412535d16bd230215-87004222',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.16',
+  'unifunc' => 'content_535d16bd26aba2_22958031',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_535d16bd26aba2_22958031')) {function content_535d16bd26aba2_22958031($_smarty_tpl) {?><!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,16 +31,45 @@
     <title>关于我们 - 太和县桔梗产业集群技术服务中心</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{$vp}/css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Add custom CSS here -->
-    <link href="{$vp}/css/modern-business.css" rel="stylesheet">
-    <link href="{$vp}/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
 
-   {include file="header.html"}
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">太和县桔梗产业集群技术服务中心</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li><a href="about.html">关于我们</a>
+                    </li>
+                    <li><a href="services.html">服务中心</a>
+                    </li>
+                       <li><a href="contact.php">文章中心</a>
+                    </li>
+                    <li><a href="contact.php">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
     <div class="container">
 
@@ -30,7 +80,7 @@
                     <small>It's Nice to Meet You!</small>
                 </h1>
                 <ol class="breadcrumb">
-                    <li><a href="index.php">Home</a>
+                    <li><a href="index.html">Home</a>
                     </li>
                     <li class="active">About</li>
                 </ol>
@@ -181,3 +231,4 @@
 </body>
 
 </html>
+<?php }} ?>

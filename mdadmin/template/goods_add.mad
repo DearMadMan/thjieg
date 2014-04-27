@@ -168,7 +168,7 @@
                                   <textarea id="article_content" name="content" class="span11"></textarea>
                             </div>
 
-
+              </div>
 
                         <div class="form-actions ">
                             <button type="submit" class="btn btn-success span3 offset3">Save</button>

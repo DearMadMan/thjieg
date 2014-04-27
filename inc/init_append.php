@@ -24,4 +24,10 @@ else
 }
 
 
+//分类
+
+$sql="select * from article_type ";
+$article_types=$db->getAll($sql);
+$smarty->assign("article_types",$article_types);
+
 ?>

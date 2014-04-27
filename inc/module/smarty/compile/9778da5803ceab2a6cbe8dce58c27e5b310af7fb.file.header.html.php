@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-27 17:07:39
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-27 22:56:02
          compiled from "D:\wamp\www\test\view\default\header.html" */ ?>
 <?php /*%%SmartyHeaderCode:4756535cc8dbd09367-05850802%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '9778da5803ceab2a6cbe8dce58c27e5b310af7fb' => 
     array (
       0 => 'D:\\wamp\\www\\test\\view\\default\\header.html',
-      1 => 1398586773,
+      1 => 1398610172,
       2 => 'file',
     ),
   ),
@@ -15,9 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.16',
   'unifunc' => 'content_535cc8dbd0d1e7_91261342',
+  'variables' => 
+  array (
+    'article_types' => 0,
+    'v' => 0,
+  ),
+  'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_535cc8dbd0d1e7_91261342')) {function content_535cc8dbd0d1e7_91261342($_smarty_tpl) {?>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -36,23 +41,25 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav navbar-right">
 
-                    <li><a href="about.html">关于我们</a>
+                    <li><a href="index.php">关于我们</a>
                     </li>
-                    <li><a href="services.html">服务项目</a>
+                    <?php  $_smarty_tpl->tpl_vars['v'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['v']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['article_types']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['v']->key => $_smarty_tpl->tpl_vars['v']->value) {
+$_smarty_tpl->tpl_vars['v']->_loop = true;
+?>
+                    <li><a href="article.php?article_type_id=<?php echo $_smarty_tpl->tpl_vars['v']->value['article_type_id'];?>
+"><?php echo $_smarty_tpl->tpl_vars['v']->value['type_name'];?>
+</a>
                     </li>
-
-                       <li><a href="contact.php">服务团队</a>
+                    <?php } ?>
+                     <li><a href="contact.php">联系我们</a>
+                    }
                     </li>
-                       <li><a href="contact.php">服务活动</a>
+                    <!--
+                       <li><a href="article.php?article_type_id=1">图片展示</a>
                     </li>
-                       <li><a href="contact.php">成功案例</a>
-                    </li>
-
-                    <li><a href="contact.php">行业资讯</a>
-                    </li>
-
-                       <li><a href="contact.php">图片展示</a>
-                    </li>
+                    -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

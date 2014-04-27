@@ -58,14 +58,14 @@
                             <div class="control-group">
                                 <label class="control-label">分类名称</label>
                                 <div class="controls">
-                                    <input type="hidden" name="categroy_id" value="{$categroy_info.categroy_id}">
-                                    <input name="categroy_name" value="{$categroy_info.categroy_name}" type="text" class="span11" placeholder="分类名称">
+                                    <input type="hidden" name="categroy_id" value="{$categroy_info.article_type_id}">
+                                    <input name="categroy_name" value="{$categroy_info.type_name}" type="text" class="span11" placeholder="分类名称">
                                 </div>
                             </div>
 
 
-   <!-- 
-  
+   <!--
+
                             <div class="control-group">
                                 <label class="control-label">上级分类</label>
                                 <div class="controls">
@@ -76,7 +76,7 @@
                                             <div>
                                                 <b></b>
                                             </div>
-                                        </a> 
+                                        </a>
 
                                         <div class="select2-drop select2-with-searchbox select2-offscreen" style="display:block;">
 
