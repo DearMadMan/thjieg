@@ -1,0 +1,8 @@
+<!--breadcrumbs-->
+
+      <div id="breadcrumb">
+      <a href="index.php" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a>
+      <a href="#">Sample pages</a> 
+      <a href="#" class="current">Error</a> 
+      </div>
+<!--End-breadcrumbs-->

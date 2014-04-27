@@ -1,0 +1,1591 @@
+08:51:26 use ppiao_5u;
+08:51:26 set names utf8;
+08:51:26 select * from mobile_configs
+08:51:35 use ppiao_5u;
+08:51:35 set names utf8;
+08:51:35 select * from mobile_configs
+08:51:35 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+08:51:35 select * from ecs_goods where goods_name like '%清仓%' limit 0,20
+08:51:52 use ppiao_5u;
+08:51:52 set names utf8;
+08:51:52 select * from mobile_configs
+08:51:52 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+08:51:52 select * from ecs_goods where goods_name like '%清仓%' limit 0,20
+09:01:51 use ppiao_5u;
+09:01:51 set names utf8;
+09:01:51 select * from mobile_configs
+09:01:51 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:01:51 select * from ecs_goods where goods_name like '%清仓%' limit 0,20
+09:02:23 use ppiao_5u;
+09:02:23 set names utf8;
+09:02:23 select * from mobile_configs
+09:02:23 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:02:23 select * from ecs_goods where goods_name like '%清仓%' limit 0,20
+09:02:30 use ppiao_5u;
+09:02:30 set names utf8;
+09:02:30 select * from mobile_configs
+09:02:30 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:02:30 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:02:33 use ppiao_5u;
+09:02:33 set names utf8;
+09:02:33 select * from mobile_configs
+09:02:33 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:02:33 select * from ecs_goods where goods_name like '%清仓%' limit 0,20
+09:04:13 use ppiao_5u;
+09:04:13 set names utf8;
+09:04:13 select * from mobile_configs
+09:04:13 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:04:13 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:04:14 use ppiao_5u;
+09:04:14 set names utf8;
+09:04:14 select * from mobile_configs
+09:04:14 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:04:14 select * from ecs_goods where goods_name like '%清仓%' limit 0,20
+09:10:38 use ppiao_5u;
+09:10:38 set names utf8;
+09:10:38 select * from mobile_configs
+09:10:38 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:10:38 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:12:10 use ppiao_5u;
+09:12:10 set names utf8;
+09:12:10 select * from mobile_configs
+09:12:10 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:12:10 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:15:02 use ppiao_5u;
+09:15:02 set names utf8;
+09:15:02 select * from mobile_configs
+09:15:02 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:15:02 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:15:03 use ppiao_5u;
+09:15:03 set names utf8;
+09:15:03 select * from mobile_configs
+09:15:03 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:15:03 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:15:04 use ppiao_5u;
+09:15:04 set names utf8;
+09:15:04 select * from mobile_configs
+09:15:04 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:15:04 select * from ecs_goods where goods_name like '%清仓%' limit 0,20
+09:15:08 use ppiao_5u;
+09:15:08 set names utf8;
+09:15:08 select * from mobile_configs
+09:15:08 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:15:08 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:15:12 use ppiao_5u;
+09:15:12 set names utf8;
+09:15:12 select * from mobile_configs
+09:15:12 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:15:12 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:15:14 use ppiao_5u;
+09:15:14 set names utf8;
+09:15:14 select * from mobile_configs
+09:15:14 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:15:14 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:15:17 use ppiao_5u;
+09:15:17 set names utf8;
+09:15:17 select * from mobile_configs
+09:15:17 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:15:17 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:15:20 use ppiao_5u;
+09:15:20 set names utf8;
+09:15:20 select * from mobile_configs
+09:15:20 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:15:20 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:15:25 use ppiao_5u;
+09:15:25 set names utf8;
+09:15:25 select * from mobile_configs
+09:15:25 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:15:25 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:20:22 use ppiao_5u;
+09:20:22 set names utf8;
+09:20:22 select * from mobile_configs
+09:20:22 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:20:22 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:20:22 use ppiao_5u;
+09:20:22 set names utf8;
+09:20:22 select * from mobile_configs
+09:20:22 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:20:22 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:20:22 use ppiao_5u;
+09:20:22 set names utf8;
+09:20:22 select * from mobile_configs
+09:20:22 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:20:22 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:20:22 use ppiao_5u;
+09:20:22 set names utf8;
+09:20:22 select * from mobile_configs
+09:20:22 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:20:22 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:20:32 use ppiao_5u;
+09:20:32 set names utf8;
+09:20:32 select * from mobile_configs
+09:21:30 use ppiao_5u;
+09:21:30 set names utf8;
+09:21:30 select * from mobile_configs
+09:21:30 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:21:30 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:22:36 use ppiao_5u;
+09:22:36 set names utf8;
+09:22:36 select * from mobile_configs
+09:22:36 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:22:36 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:22:48 use ppiao_5u;
+09:22:48 set names utf8;
+09:22:48 select * from mobile_configs
+09:22:48 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:22:48 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:27:06 use ppiao_5u;
+09:27:06 set names utf8;
+09:27:06 select * from mobile_configs
+09:27:06 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:27:06 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:27:06 use ppiao_5u;
+09:27:06 set names utf8;
+09:27:06 select * from mobile_configs
+09:27:06 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:27:06 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:27:06 use ppiao_5u;
+09:27:06 set names utf8;
+09:27:06 select * from mobile_configs
+09:27:06 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:27:06 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:27:07 use ppiao_5u;
+09:27:07 set names utf8;
+09:27:07 select * from mobile_configs
+09:27:07 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:27:07 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:27:07 use ppiao_5u;
+09:27:07 set names utf8;
+09:27:07 select * from mobile_configs
+09:27:07 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:27:07 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:31:43 use ppiao_5u;
+09:31:43 set names utf8;
+09:31:43 select * from mobile_configs
+09:31:43 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:31:44 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:31:47 use ppiao_5u;
+09:31:47 set names utf8;
+09:31:47 select * from mobile_configs
+09:31:47 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:31:47 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:34:46 use ppiao_5u;
+09:34:46 set names utf8;
+09:34:46 select * from mobile_configs
+09:34:46 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:34:46 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:35:26 use ppiao_5u;
+09:35:26 set names utf8;
+09:35:26 select * from mobile_configs
+09:35:26 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:35:26 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:35:28 use ppiao_5u;
+09:35:28 set names utf8;
+09:35:28 select * from mobile_configs
+09:35:28 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:35:28 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:36:12 use ppiao_5u;
+09:36:12 set names utf8;
+09:36:12 select * from mobile_configs
+09:36:12 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:36:12 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:36:12 use ppiao_5u;
+09:36:12 set names utf8;
+09:36:12 select * from mobile_configs
+09:36:12 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:36:12 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:36:12 use ppiao_5u;
+09:36:12 set names utf8;
+09:36:12 select * from mobile_configs
+09:36:12 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:36:12 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:36:13 use ppiao_5u;
+09:36:13 set names utf8;
+09:36:13 select * from mobile_configs
+09:36:13 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:36:13 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:39:05 use ppiao_5u;
+09:39:05 set names utf8;
+09:39:05 select * from mobile_configs
+09:39:05 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:39:05 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:39:05 use ppiao_5u;
+09:39:05 set names utf8;
+09:39:05 select * from mobile_configs
+09:39:05 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:39:05 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:39:06 use ppiao_5u;
+09:39:06 set names utf8;
+09:39:06 select * from mobile_configs
+09:39:06 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:39:06 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:39:10 use ppiao_5u;
+09:39:10 set names utf8;
+09:39:10 select * from mobile_configs
+09:39:10 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:39:10 select * from ecs_goods where goods_name like '%清仓%' limit 0,20
+09:39:32 use ppiao_5u;
+09:39:32 set names utf8;
+09:39:32 select * from mobile_configs
+09:39:32 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:39:32 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:39:42 use ppiao_5u;
+09:39:42 set names utf8;
+09:39:42 select * from mobile_configs
+09:39:42 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:39:42 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:39:44 use ppiao_5u;
+09:39:44 set names utf8;
+09:39:44 select * from mobile_configs
+09:39:44 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:39:44 select * from ecs_goods where goods_name like '%清仓%' limit 0,20
+09:39:47 use ppiao_5u;
+09:39:47 set names utf8;
+09:39:47 select * from mobile_configs
+09:39:47 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:39:47 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:39:50 use ppiao_5u;
+09:39:50 set names utf8;
+09:39:50 select * from mobile_configs
+09:39:50 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:39:50 select * from ecs_goods where goods_name like '%清仓%' limit 0,20
+09:40:48 use ppiao_5u;
+09:40:48 set names utf8;
+09:40:48 select * from mobile_configs
+09:40:48 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:40:48 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:40:50 use ppiao_5u;
+09:40:50 set names utf8;
+09:40:50 select * from mobile_configs
+09:40:50 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:40:50 select * from ecs_goods where goods_name like '%清仓%' limit 0,20
+09:40:53 use ppiao_5u;
+09:40:53 set names utf8;
+09:40:53 select * from mobile_configs
+09:40:53 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:40:53 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:40:54 use ppiao_5u;
+09:40:54 set names utf8;
+09:40:54 select * from mobile_configs
+09:40:54 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:40:54 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:41:06 use ppiao_5u;
+09:41:06 set names utf8;
+09:41:06 select * from mobile_configs
+09:41:06 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:41:06 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:41:08 use ppiao_5u;
+09:41:08 set names utf8;
+09:41:08 select * from mobile_configs
+09:41:08 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:41:08 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:42:23 use ppiao_5u;
+09:42:23 set names utf8;
+09:42:23 select * from mobile_configs
+09:42:23 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:42:23 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:43:09 use ppiao_5u;
+09:43:09 set names utf8;
+09:43:09 select * from mobile_configs
+09:43:09 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:43:09 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+09:43:11 use ppiao_5u;
+09:43:11 set names utf8;
+09:43:11 select * from mobile_configs
+09:43:11 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+09:43:11 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+10:14:11 use ppiao_5u;
+10:14:11 set names utf8;
+10:14:11 select * from mobile_configs
+10:14:11 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+10:14:11 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+10:16:38 use ppiao_5u;
+10:16:38 set names utf8;
+10:16:38 select * from mobile_configs
+10:16:38 use ppiao_5u;
+10:16:38 set names utf8;
+10:16:38 select * from mobile_configs
+10:23:16 use ppiao_5u;
+10:23:16 set names utf8;
+10:23:16 select * from mobile_configs
+10:23:16 use ppiao_5u;
+10:23:16 set names utf8;
+10:23:16 select * from mobile_configs
+10:23:22 use ppiao_5u;
+10:23:22 set names utf8;
+10:23:22 select * from mobile_configs
+10:23:22 select * from ecs_goods where goods_id=3
+10:23:24 use ppiao_5u;
+10:23:24 set names utf8;
+10:23:24 select * from mobile_configs
+10:23:24 select * from ecs_goods where goods_id=3
+10:24:29 use ppiao_5u;
+10:24:29 set names utf8;
+10:24:29 select * from mobile_configs
+10:24:29 select * from ecs_goods where goods_id=3
+10:39:08 use ppiao_5u;
+10:39:08 set names utf8;
+10:39:08 select * from mobile_configs
+10:39:08 select * from ecs_goods where goods_id=3
+10:39:10 use ppiao_5u;
+10:39:10 set names utf8;
+10:39:10 select * from mobile_configs
+10:39:10 select * from ecs_goods where goods_id=3
+10:39:46 use ppiao_5u;
+10:39:46 set names utf8;
+10:39:46 select * from mobile_configs
+10:39:46 select * from ecs_goods where goods_id=3
+10:40:01 use ppiao_5u;
+10:40:01 set names utf8;
+10:40:01 select * from mobile_configs
+10:40:01 select * from ecs_goods where goods_id=3
+10:40:49 use ppiao_5u;
+10:40:49 set names utf8;
+10:40:49 select * from mobile_configs
+10:40:49 select * from ecs_goods where goods_id=3
+10:40:50 use ppiao_5u;
+10:40:50 set names utf8;
+10:40:50 select * from mobile_configs
+10:40:50 select * from ecs_goods where goods_id=3
+10:40:52 use ppiao_5u;
+10:40:52 set names utf8;
+10:40:52 select * from mobile_configs
+10:40:52 select * from ecs_goods where goods_id=3
+10:41:06 use ppiao_5u;
+10:41:06 set names utf8;
+10:41:06 select * from mobile_configs
+10:41:06 select * from ecs_goods where goods_id=3
+10:50:46 use ppiao_5u;
+10:50:46 set names utf8;
+10:50:46 select * from mobile_configs
+10:50:46 select * from ecs_goods where goods_id=3
+10:50:55 use ppiao_5u;
+10:50:55 set names utf8;
+10:50:55 select * from mobile_configs
+10:50:55 select * from ecs_goods where goods_id=3
+10:51:15 use ppiao_5u;
+10:51:15 set names utf8;
+10:51:15 select * from mobile_configs
+10:51:15 select * from ecs_goods where goods_id=3
+10:55:03 use ppiao_5u;
+10:55:03 set names utf8;
+10:55:03 select * from mobile_configs
+10:55:03 select * from ecs_goods where goods_id=3
+10:57:32 use ppiao_5u;
+10:57:32 set names utf8;
+10:57:32 select * from mobile_configs
+10:57:32 select * from ecs_goods where goods_id=3
+10:57:34 use ppiao_5u;
+10:57:34 set names utf8;
+10:57:34 select * from mobile_configs
+10:57:34 select * from ecs_goods where goods_id=3
+10:57:40 use ppiao_5u;
+10:57:40 set names utf8;
+10:57:40 select * from mobile_configs
+10:57:40 select * from ecs_goods where goods_id=3
+10:57:42 use ppiao_5u;
+10:57:42 set names utf8;
+10:57:42 select * from mobile_configs
+10:57:42 select * from ecs_goods where goods_id=3
+10:57:42 use ppiao_5u;
+10:57:42 set names utf8;
+10:57:42 select * from mobile_configs
+10:57:42 select * from ecs_goods where goods_id=3
+10:57:42 use ppiao_5u;
+10:57:42 set names utf8;
+10:57:42 select * from mobile_configs
+10:57:42 select * from ecs_goods where goods_id=3
+10:58:10 use ppiao_5u;
+10:58:10 set names utf8;
+10:58:10 select * from mobile_configs
+10:58:10 select * from ecs_goods where goods_id=3
+10:58:37 use ppiao_5u;
+10:58:37 set names utf8;
+10:58:37 select * from mobile_configs
+10:58:37 select * from ecs_goods where goods_id=4
+10:58:47 use ppiao_5u;
+10:58:47 set names utf8;
+10:58:47 select * from mobile_configs
+10:58:47 select * from ecs_goods where goods_id=5
+10:59:33 use ppiao_5u;
+10:59:33 set names utf8;
+10:59:33 select * from mobile_configs
+10:59:33 select * from ecs_goods where goods_id=5
+11:00:15 use ppiao_5u;
+11:00:15 set names utf8;
+11:00:15 select * from mobile_configs
+11:00:15 select * from ecs_goods where goods_id=4
+11:00:16 use ppiao_5u;
+11:00:16 set names utf8;
+11:00:16 select * from mobile_configs
+11:00:16 select * from ecs_goods where goods_id=3
+11:00:22 use ppiao_5u;
+11:00:22 set names utf8;
+11:00:22 select * from mobile_configs
+11:00:22 select * from ecs_goods where goods_id=3
+11:00:23 use ppiao_5u;
+11:00:23 set names utf8;
+11:00:23 select * from mobile_configs
+11:00:23 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+11:00:23 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+11:00:24 use ppiao_5u;
+11:00:24 set names utf8;
+11:00:24 select * from mobile_configs
+11:00:24 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+11:00:24 select * from ecs_goods where goods_name like '%清仓%' limit 0,20
+11:00:25 use ppiao_5u;
+11:00:25 set names utf8;
+11:00:25 select * from mobile_configs
+11:00:25 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+11:00:25 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+11:00:28 use ppiao_5u;
+11:00:28 set names utf8;
+11:00:28 select * from mobile_configs
+11:00:28 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+11:00:28 select * from ecs_goods where goods_name like '%清仓%' limit 0,20
+11:00:35 use ppiao_5u;
+11:00:35 set names utf8;
+11:00:35 select * from mobile_configs
+11:00:35 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+11:00:35 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+11:06:47 use ppiao_5u;
+11:06:47 set names utf8;
+11:06:47 select * from mobile_configs
+11:06:47 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+11:06:47 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+11:06:47 use ppiao_5u;
+11:06:47 set names utf8;
+11:06:47 select * from mobile_configs
+11:06:47 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+11:06:47 select * from ecs_goods where goods_name like '%清仓%' limit 20,20
+11:06:49 use ppiao_5u;
+11:06:49 set names utf8;
+11:06:49 select * from mobile_configs
+11:06:49 select count(goods_id) from ecs_goods where goods_name like '%清仓%'
+11:06:49 select * from ecs_goods where goods_name like '%清仓%' limit 0,20
+11:06:56 use ppiao_5u;
+11:06:56 set names utf8;
+11:06:56 select * from mobile_configs
+11:06:56 select * from ecs_goods where goods_id=3
+11:06:56 select * from ecs_goods_gallery where goods_id=3
+11:06:59 use ppiao_5u;
+11:06:59 set names utf8;
+11:06:59 select * from mobile_configs
+11:06:59 select * from ecs_goods where goods_id=3
+11:06:59 select * from ecs_goods_gallery where goods_id=3
+11:07:01 use ppiao_5u;
+11:07:01 set names utf8;
+11:07:01 select * from mobile_configs
+11:07:01 select * from ecs_goods where goods_id=4
+11:07:01 select * from ecs_goods_gallery where goods_id=4
+11:12:14 use ppiao_5u;
+11:12:14 set names utf8;
+11:12:14 select * from mobile_configs
+11:12:14 select * from ecs_goods where goods_id=4
+11:12:14 select * from ecs_goods_gallery where goods_id=4
+11:16:25 use ppiao_5u;
+11:16:25 set names utf8;
+11:16:25 select * from mobile_configs
+11:16:25 select * from ecs_goods where goods_id=4
+11:16:25 select * from ecs_goods_gallery where goods_id=4
+11:19:53 use ppiao_5u;
+11:19:53 set names utf8;
+11:19:53 select * from mobile_configs
+11:19:53 select * from ecs_goods where goods_id=4
+11:19:53 select * from ecs_goods_gallery where goods_id=4
+11:28:39 use ppiao_5u;
+11:28:39 set names utf8;
+11:28:39 select * from mobile_configs
+11:28:39 select * from ecs_goods where goods_id=4
+11:28:39 select * from ecs_goods_gallery where goods_id=4
+11:28:40 use ppiao_5u;
+11:28:40 set names utf8;
+11:28:40 select * from mobile_configs
+11:28:40 select * from ecs_goods where goods_id=4
+11:28:40 select * from ecs_goods_gallery where goods_id=4
+11:28:41 use ppiao_5u;
+11:28:41 set names utf8;
+11:28:41 select * from mobile_configs
+11:28:41 select * from ecs_goods where goods_id=4
+11:28:41 select * from ecs_goods_gallery where goods_id=4
+11:29:53 use ppiao_5u;
+11:29:53 set names utf8;
+11:29:53 select * from mobile_configs
+11:29:53 select * from ecs_goods where goods_id=4
+11:29:53 select * from ecs_goods_gallery where goods_id=4
+11:31:29 use ppiao_5u;
+11:31:29 set names utf8;
+11:31:29 select * from mobile_configs
+11:31:29 select * from ecs_goods where goods_id=4
+11:31:29 select * from ecs_goods_gallery where goods_id=4
+11:32:10 use ppiao_5u;
+11:32:10 set names utf8;
+11:32:10 select * from mobile_configs
+11:32:10 select * from ecs_goods where goods_id=4
+11:32:10 select * from ecs_goods_gallery where goods_id=4
+11:33:25 use ppiao_5u;
+11:33:25 set names utf8;
+11:33:25 select * from mobile_configs
+11:33:25 select * from ecs_goods where goods_id=4
+11:33:25 select * from ecs_goods_gallery where goods_id=4
+13:43:22 use ppiao_5u;
+13:43:22 set names utf8;
+13:43:22 select * from mobile_configs
+13:43:40 use ppiao_5u;
+13:43:40 set names utf8;
+13:43:40 select * from mobile_configs
+13:43:41 select count(goods_id) from ecs_goods where goods_name like '%货%'
+13:43:41 select * from ecs_goods where goods_name like '%货%' limit 0,20
+13:43:43 use ppiao_5u;
+13:43:43 set names utf8;
+13:43:43 select * from mobile_configs
+13:43:43 select * from ecs_goods where goods_id=2830
+13:43:43 select * from ecs_goods_gallery where goods_id=2830
+13:43:47 use ppiao_5u;
+13:43:47 set names utf8;
+13:43:47 select * from mobile_configs
+13:43:47 select * from ecs_goods where goods_id=2830
+13:43:47 select * from ecs_goods_gallery where goods_id=2830
+13:43:47 use ppiao_5u;
+13:43:47 set names utf8;
+13:43:47 select * from mobile_configs
+13:43:47 select * from ecs_goods where goods_id=2830
+13:43:47 select * from ecs_goods_gallery where goods_id=2830
+13:43:47 use ppiao_5u;
+13:43:47 set names utf8;
+13:43:47 select * from mobile_configs
+13:43:47 select * from ecs_goods where goods_id=2830
+13:43:47 select * from ecs_goods_gallery where goods_id=2830
+13:43:47 use ppiao_5u;
+13:43:47 set names utf8;
+13:43:47 select * from mobile_configs
+13:43:48 select * from ecs_goods where goods_id=2830
+13:43:48 select * from ecs_goods_gallery where goods_id=2830
+13:43:48 use ppiao_5u;
+13:43:48 set names utf8;
+13:43:48 select * from mobile_configs
+13:43:48 select * from ecs_goods where goods_id=2830
+13:43:48 select * from ecs_goods_gallery where goods_id=2830
+13:43:48 use ppiao_5u;
+13:43:48 set names utf8;
+13:43:48 select * from mobile_configs
+13:43:48 select * from ecs_goods where goods_id=2830
+13:43:48 select * from ecs_goods_gallery where goods_id=2830
+13:43:49 use ppiao_5u;
+13:43:49 set names utf8;
+13:43:49 select * from mobile_configs
+13:43:49 select * from ecs_goods where goods_id=2830
+13:43:49 select * from ecs_goods_gallery where goods_id=2830
+13:43:49 use ppiao_5u;
+13:43:49 set names utf8;
+13:43:49 select * from mobile_configs
+13:43:49 select * from ecs_goods where goods_id=2830
+13:43:49 select * from ecs_goods_gallery where goods_id=2830
+13:44:01 use ppiao_5u;
+13:44:01 set names utf8;
+13:44:01 select * from mobile_configs
+13:44:02 use ppiao_5u;
+13:44:02 set names utf8;
+13:44:02 select * from mobile_configs
+13:44:02 select * from ecs_goods where goods_id=2830
+13:44:02 select * from ecs_goods_gallery where goods_id=2830
+13:44:05 use ppiao_5u;
+13:44:05 set names utf8;
+13:44:05 select * from mobile_configs
+13:44:05 select * from ecs_goods where goods_id=2830
+13:44:05 select * from ecs_goods_gallery where goods_id=2830
+13:44:06 use ppiao_5u;
+13:44:06 set names utf8;
+13:44:06 select * from mobile_configs
+13:44:11 use ppiao_5u;
+13:44:11 set names utf8;
+13:44:11 select * from mobile_configs
+13:50:06 use ppiao_5u;
+13:50:06 set names utf8;
+13:50:06 select * from mobile_configs
+13:50:13 use ppiao_5u;
+13:50:13 set names utf8;
+13:50:13 select * from mobile_configs
+13:50:13 select count(goods_id) from ecs_goods where goods_name like '%年%'
+13:50:13 select * from ecs_goods where goods_name like '%年%' limit 0,20
+13:50:14 use ppiao_5u;
+13:50:14 set names utf8;
+13:50:14 select * from mobile_configs
+13:50:14 select * from ecs_goods where goods_id=2830
+13:50:14 select * from ecs_goods_gallery where goods_id=2830
+14:41:40 use ppiao_5u;
+14:41:40 set names utf8;
+14:41:40 select * from mobile_configs
+14:41:43 use ppiao_5u;
+14:41:43 set names utf8;
+14:41:43 select * from mobile_configs
+14:41:43 use ppiao_5u;
+14:41:43 set names utf8;
+14:41:43 select * from mobile_configs
+14:41:43 use ppiao_5u;
+14:41:43 set names utf8;
+14:41:43 select * from mobile_configs
+14:41:43 use ppiao_5u;
+14:41:43 set names utf8;
+14:41:43 select * from mobile_configs
+14:41:43 use ppiao_5u;
+14:41:43 set names utf8;
+14:41:43 select * from mobile_configs
+14:41:43 use ppiao_5u;
+14:41:43 set names utf8;
+14:41:43 select * from mobile_configs
+14:41:43 use ppiao_5u;
+14:41:43 set names utf8;
+14:41:43 select * from mobile_configs
+14:41:43 use ppiao_5u;
+14:41:43 set names utf8;
+14:41:43 select * from mobile_configs
+14:41:43 use ppiao_5u;
+14:41:43 set names utf8;
+14:41:43 select * from mobile_configs
+14:41:43 use ppiao_5u;
+14:41:43 set names utf8;
+14:41:43 select * from mobile_configs
+14:41:43 use ppiao_5u;
+14:41:43 set names utf8;
+14:41:43 select * from mobile_configs
+14:41:43 use ppiao_5u;
+14:41:43 set names utf8;
+14:41:43 select * from mobile_configs
+14:41:43 use ppiao_5u;
+14:41:43 set names utf8;
+14:41:43 select * from mobile_configs
+14:41:43 use ppiao_5u;
+14:41:43 set names utf8;
+14:41:43 select * from mobile_configs
+14:41:43 use ppiao_5u;
+14:41:43 set names utf8;
+14:41:43 select * from mobile_configs
+14:41:43 use ppiao_5u;
+14:41:43 set names utf8;
+14:41:43 select * from mobile_configs
+14:41:43 use ppiao_5u;
+14:41:43 set names utf8;
+14:41:43 select * from mobile_configs
+14:41:43 use ppiao_5u;
+14:41:43 set names utf8;
+14:41:43 select * from mobile_configs
+14:41:43 use ppiao_5u;
+14:41:43 set names utf8;
+14:41:43 select * from mobile_configs
+14:41:43 use ppiao_5u;
+14:41:43 set names utf8;
+14:41:43 select * from mobile_configs
+14:41:43 use ppiao_5u;
+14:41:43 set names utf8;
+14:41:43 select * from mobile_configs
+14:52:26 use ppiao_5u;
+14:52:26 set names utf8;
+14:52:26 select * from mobile_configs
+14:52:26 use ppiao_5u;
+14:52:26 set names utf8;
+14:52:26 select * from mobile_configs
+14:52:26 use ppiao_5u;
+14:52:26 set names utf8;
+14:52:26 select * from mobile_configs
+14:52:26 use ppiao_5u;
+14:52:26 set names utf8;
+14:52:26 select * from mobile_configs
+14:52:26 use ppiao_5u;
+14:52:26 set names utf8;
+14:52:26 select * from mobile_configs
+14:52:26 use ppiao_5u;
+14:52:26 set names utf8;
+14:52:26 select * from mobile_configs
+14:52:26 use ppiao_5u;
+14:52:26 set names utf8;
+14:52:26 select * from mobile_configs
+14:52:26 use ppiao_5u;
+14:52:26 set names utf8;
+14:52:26 select * from mobile_configs
+14:52:26 use ppiao_5u;
+14:52:26 set names utf8;
+14:52:26 select * from mobile_configs
+14:52:26 use ppiao_5u;
+14:52:26 set names utf8;
+14:52:26 select * from mobile_configs
+14:52:26 use ppiao_5u;
+14:52:26 set names utf8;
+14:52:26 select * from mobile_configs
+14:52:26 use ppiao_5u;
+14:52:26 set names utf8;
+14:52:26 select * from mobile_configs
+14:52:26 use ppiao_5u;
+14:52:26 set names utf8;
+14:52:26 select * from mobile_configs
+14:52:26 use ppiao_5u;
+14:52:26 set names utf8;
+14:52:26 select * from mobile_configs
+14:52:26 use ppiao_5u;
+14:52:26 set names utf8;
+14:52:26 select * from mobile_configs
+14:52:26 use ppiao_5u;
+14:52:26 set names utf8;
+14:52:26 select * from mobile_configs
+14:52:26 use ppiao_5u;
+14:52:26 set names utf8;
+14:52:26 select * from mobile_configs
+14:52:26 use ppiao_5u;
+14:52:26 set names utf8;
+14:52:26 select * from mobile_configs
+14:52:26 use ppiao_5u;
+14:52:26 set names utf8;
+14:52:26 select * from mobile_configs
+14:52:26 use ppiao_5u;
+14:52:26 set names utf8;
+14:52:26 select * from mobile_configs
+14:52:26 use ppiao_5u;
+14:52:26 set names utf8;
+14:52:26 select * from mobile_configs
+14:52:51 use ppiao_5u;
+14:52:51 set names utf8;
+14:52:51 select * from mobile_configs
+14:52:52 use ppiao_5u;
+14:52:52 set names utf8;
+14:52:52 select * from mobile_configs
+14:52:56 use ppiao_5u;
+14:52:56 set names utf8;
+14:52:56 select * from mobile_configs
+14:52:56 use ppiao_5u;
+14:52:56 set names utf8;
+14:52:56 select * from mobile_configs
+14:52:57 use ppiao_5u;
+14:52:57 set names utf8;
+14:52:57 select * from mobile_configs
+14:52:57 use ppiao_5u;
+14:52:57 set names utf8;
+14:52:57 select * from mobile_configs
+14:52:57 use ppiao_5u;
+14:52:57 set names utf8;
+14:52:57 select * from mobile_configs
+14:52:57 use ppiao_5u;
+14:52:57 set names utf8;
+14:52:57 select * from mobile_configs
+14:52:57 use ppiao_5u;
+14:52:57 set names utf8;
+14:52:57 select * from mobile_configs
+14:52:57 use ppiao_5u;
+14:52:57 set names utf8;
+14:52:57 select * from mobile_configs
+14:52:57 use ppiao_5u;
+14:52:57 set names utf8;
+14:52:57 select * from mobile_configs
+14:52:57 use ppiao_5u;
+14:52:57 set names utf8;
+14:52:57 select * from mobile_configs
+14:52:57 use ppiao_5u;
+14:52:57 set names utf8;
+14:52:57 select * from mobile_configs
+14:52:57 use ppiao_5u;
+14:52:57 set names utf8;
+14:52:57 select * from mobile_configs
+14:52:57 use ppiao_5u;
+14:52:57 set names utf8;
+14:52:57 select * from mobile_configs
+14:52:57 use ppiao_5u;
+14:52:57 set names utf8;
+14:52:57 select * from mobile_configs
+14:52:57 use ppiao_5u;
+14:52:57 set names utf8;
+14:52:57 select * from mobile_configs
+14:52:57 use ppiao_5u;
+14:52:57 set names utf8;
+14:52:57 select * from mobile_configs
+14:52:57 use ppiao_5u;
+14:52:57 set names utf8;
+14:52:57 select * from mobile_configs
+14:52:57 use ppiao_5u;
+14:52:57 set names utf8;
+14:52:57 select * from mobile_configs
+14:52:57 use ppiao_5u;
+14:52:57 set names utf8;
+14:52:57 select * from mobile_configs
+14:52:57 use ppiao_5u;
+14:52:57 set names utf8;
+14:52:57 select * from mobile_configs
+14:52:57 use ppiao_5u;
+14:52:57 set names utf8;
+14:52:57 select * from mobile_configs
+14:53:00 use ppiao_5u;
+14:53:00 set names utf8;
+14:53:00 select * from mobile_configs
+14:53:00 use ppiao_5u;
+14:53:00 set names utf8;
+14:53:00 select * from mobile_configs
+14:53:00 use ppiao_5u;
+14:53:00 set names utf8;
+14:53:00 select * from mobile_configs
+14:53:00 use ppiao_5u;
+14:53:00 set names utf8;
+14:53:00 select * from mobile_configs
+14:53:00 use ppiao_5u;
+14:53:00 set names utf8;
+14:53:00 select * from mobile_configs
+14:53:00 use ppiao_5u;
+14:53:00 set names utf8;
+14:53:00 select * from mobile_configs
+14:53:00 use ppiao_5u;
+14:53:00 set names utf8;
+14:53:00 select * from mobile_configs
+14:53:00 use ppiao_5u;
+14:53:00 set names utf8;
+14:53:00 select * from mobile_configs
+14:53:00 use ppiao_5u;
+14:53:00 set names utf8;
+14:53:00 select * from mobile_configs
+14:53:00 use ppiao_5u;
+14:53:00 set names utf8;
+14:53:00 select * from mobile_configs
+14:53:00 use ppiao_5u;
+14:53:00 set names utf8;
+14:53:00 select * from mobile_configs
+14:53:00 use ppiao_5u;
+14:53:00 set names utf8;
+14:53:00 select * from mobile_configs
+14:53:00 use ppiao_5u;
+14:53:00 set names utf8;
+14:53:00 select * from mobile_configs
+14:53:00 use ppiao_5u;
+14:53:00 set names utf8;
+14:53:00 select * from mobile_configs
+14:53:00 use ppiao_5u;
+14:53:00 set names utf8;
+14:53:00 select * from mobile_configs
+14:53:00 use ppiao_5u;
+14:53:00 set names utf8;
+14:53:00 select * from mobile_configs
+14:53:00 use ppiao_5u;
+14:53:00 set names utf8;
+14:53:00 select * from mobile_configs
+14:53:00 use ppiao_5u;
+14:53:00 set names utf8;
+14:53:00 select * from mobile_configs
+14:53:00 use ppiao_5u;
+14:53:00 set names utf8;
+14:53:00 select * from mobile_configs
+14:53:00 use ppiao_5u;
+14:53:00 set names utf8;
+14:53:00 select * from mobile_configs
+14:53:00 use ppiao_5u;
+14:53:00 set names utf8;
+14:53:00 select * from mobile_configs
+14:53:01 use ppiao_5u;
+14:53:01 set names utf8;
+14:53:01 select * from mobile_configs
+14:53:01 use ppiao_5u;
+14:53:01 set names utf8;
+14:53:01 select * from mobile_configs
+14:53:01 use ppiao_5u;
+14:53:01 set names utf8;
+14:53:01 select * from mobile_configs
+14:53:01 use ppiao_5u;
+14:53:01 set names utf8;
+14:53:01 select * from mobile_configs
+14:53:02 use ppiao_5u;
+14:53:02 set names utf8;
+14:53:02 select * from mobile_configs
+14:53:02 use ppiao_5u;
+14:53:02 set names utf8;
+14:53:02 select * from mobile_configs
+14:53:02 use ppiao_5u;
+14:53:02 set names utf8;
+14:53:02 select * from mobile_configs
+14:53:02 use ppiao_5u;
+14:53:02 set names utf8;
+14:53:02 select * from mobile_configs
+14:53:02 use ppiao_5u;
+14:53:02 set names utf8;
+14:53:02 select * from mobile_configs
+14:53:02 use ppiao_5u;
+14:53:02 set names utf8;
+14:53:02 select * from mobile_configs
+14:53:02 use ppiao_5u;
+14:53:02 set names utf8;
+14:53:02 select * from mobile_configs
+14:53:02 use ppiao_5u;
+14:53:02 set names utf8;
+14:53:02 select * from mobile_configs
+14:53:02 use ppiao_5u;
+14:53:02 set names utf8;
+14:53:02 select * from mobile_configs
+14:53:02 use ppiao_5u;
+14:53:02 set names utf8;
+14:53:02 select * from mobile_configs
+14:53:02 use ppiao_5u;
+14:53:02 set names utf8;
+14:53:02 select * from mobile_configs
+14:53:02 use ppiao_5u;
+14:53:02 set names utf8;
+14:53:02 select * from mobile_configs
+14:53:02 use ppiao_5u;
+14:53:02 set names utf8;
+14:53:02 select * from mobile_configs
+14:53:02 use ppiao_5u;
+14:53:02 set names utf8;
+14:53:02 select * from mobile_configs
+14:53:02 use ppiao_5u;
+14:53:02 set names utf8;
+14:53:02 select * from mobile_configs
+14:53:02 use ppiao_5u;
+14:53:02 set names utf8;
+14:53:02 select * from mobile_configs
+14:53:02 use ppiao_5u;
+14:53:02 set names utf8;
+14:53:02 select * from mobile_configs
+14:54:34 use ppiao_5u;
+14:54:34 set names utf8;
+14:54:34 select * from mobile_configs
+14:55:02 use ppiao_5u;
+14:55:02 set names utf8;
+14:55:02 select * from mobile_configs
+14:55:26 use ppiao_5u;
+14:55:26 set names utf8;
+14:55:26 select * from mobile_configs
+14:55:26 use ppiao_5u;
+14:55:26 set names utf8;
+14:55:26 select * from mobile_configs
+14:55:29 use ppiao_5u;
+14:55:29 set names utf8;
+14:55:29 select * from mobile_configs
+14:55:36 use ppiao_5u;
+14:55:36 set names utf8;
+14:55:36 select * from mobile_configs
+14:55:48 use ppiao_5u;
+14:55:48 set names utf8;
+14:55:48 select * from mobile_configs
+14:55:59 use ppiao_5u;
+14:55:59 set names utf8;
+14:55:59 select * from mobile_configs
+15:09:34 use ppiao_5u;
+15:09:34 set names utf8;
+15:09:34 select * from mobile_configs
+15:09:36 use ppiao_5u;
+15:09:36 set names utf8;
+15:09:36 select * from mobile_configs
+15:09:55 use ppiao_5u;
+15:09:55 set names utf8;
+15:09:55 select * from mobile_configs
+15:09:57 use ppiao_5u;
+15:09:57 set names utf8;
+15:09:57 select * from mobile_configs
+15:09:58 use ppiao_5u;
+15:09:58 set names utf8;
+15:09:58 select * from mobile_configs
+15:09:58 use ppiao_5u;
+15:09:58 set names utf8;
+15:09:58 select * from mobile_configs
+15:09:58 use ppiao_5u;
+15:09:58 set names utf8;
+15:09:58 select * from mobile_configs
+15:09:59 use ppiao_5u;
+15:09:59 set names utf8;
+15:09:59 select * from mobile_configs
+15:09:59 use ppiao_5u;
+15:09:59 set names utf8;
+15:09:59 select * from mobile_configs
+15:09:59 use ppiao_5u;
+15:09:59 set names utf8;
+15:09:59 select * from mobile_configs
+15:09:59 use ppiao_5u;
+15:09:59 set names utf8;
+15:09:59 select * from mobile_configs
+15:10:00 use ppiao_5u;
+15:10:00 set names utf8;
+15:10:00 select * from mobile_configs
+15:10:00 use ppiao_5u;
+15:10:00 set names utf8;
+15:10:00 select * from mobile_configs
+15:10:02 use ppiao_5u;
+15:10:02 set names utf8;
+15:10:02 select * from mobile_configs
+15:10:33 use ppiao_5u;
+15:10:33 set names utf8;
+15:10:33 select * from mobile_configs
+15:10:34 use ppiao_5u;
+15:10:34 set names utf8;
+15:10:34 select * from mobile_configs
+15:10:35 use ppiao_5u;
+15:10:35 set names utf8;
+15:10:35 select * from mobile_configs
+15:10:35 use ppiao_5u;
+15:10:35 set names utf8;
+15:10:35 select * from mobile_configs
+15:10:35 use ppiao_5u;
+15:10:35 set names utf8;
+15:10:35 select * from mobile_configs
+15:10:35 use ppiao_5u;
+15:10:35 set names utf8;
+15:10:35 select * from mobile_configs
+15:10:36 use ppiao_5u;
+15:10:36 set names utf8;
+15:10:36 select * from mobile_configs
+15:10:47 use ppiao_5u;
+15:10:47 set names utf8;
+15:10:47 select * from mobile_configs
+15:10:49 use ppiao_5u;
+15:10:49 set names utf8;
+15:10:49 select * from mobile_configs
+15:10:49 use ppiao_5u;
+15:10:49 set names utf8;
+15:10:49 select * from mobile_configs
+15:10:49 use ppiao_5u;
+15:10:49 set names utf8;
+15:10:49 select * from mobile_configs
+15:10:50 use ppiao_5u;
+15:10:50 set names utf8;
+15:10:50 select * from mobile_configs
+15:10:50 use ppiao_5u;
+15:10:50 set names utf8;
+15:10:50 select * from mobile_configs
+15:10:50 use ppiao_5u;
+15:10:50 set names utf8;
+15:10:50 select * from mobile_configs
+15:10:50 use ppiao_5u;
+15:10:50 set names utf8;
+15:10:50 select * from mobile_configs
+15:11:25 use ppiao_5u;
+15:11:25 set names utf8;
+15:11:25 select * from mobile_configs
+15:11:43 use ppiao_5u;
+15:11:43 set names utf8;
+15:11:43 select * from mobile_configs
+15:11:46 use ppiao_5u;
+15:11:46 set names utf8;
+15:11:46 select * from mobile_configs
+15:11:46 use ppiao_5u;
+15:11:46 set names utf8;
+15:11:46 select * from mobile_configs
+15:11:46 use ppiao_5u;
+15:11:46 set names utf8;
+15:11:46 select * from mobile_configs
+15:12:07 use ppiao_5u;
+15:12:07 set names utf8;
+15:12:07 select * from mobile_configs
+15:12:10 use ppiao_5u;
+15:12:10 set names utf8;
+15:12:10 select * from mobile_configs
+15:12:11 use ppiao_5u;
+15:12:11 set names utf8;
+15:12:11 select * from mobile_configs
+15:12:11 use ppiao_5u;
+15:12:11 set names utf8;
+15:12:11 select * from mobile_configs
+15:12:11 use ppiao_5u;
+15:12:11 set names utf8;
+15:12:11 select * from mobile_configs
+15:12:21 use ppiao_5u;
+15:12:21 set names utf8;
+15:12:21 select * from mobile_configs
+15:13:03 use ppiao_5u;
+15:13:03 set names utf8;
+15:13:03 select * from mobile_configs
+15:13:06 use ppiao_5u;
+15:13:06 set names utf8;
+15:13:06 select * from mobile_configs
+15:14:14 use ppiao_5u;
+15:14:14 set names utf8;
+15:14:14 select * from mobile_configs
+15:14:25 use ppiao_5u;
+15:14:25 set names utf8;
+15:14:25 select * from mobile_configs
+15:14:29 use ppiao_5u;
+15:14:29 set names utf8;
+15:14:29 select * from mobile_configs
+15:14:31 use ppiao_5u;
+15:14:31 set names utf8;
+15:14:31 select * from mobile_configs
+15:14:33 use ppiao_5u;
+15:14:33 set names utf8;
+15:14:33 select * from mobile_configs
+15:14:35 use ppiao_5u;
+15:14:35 set names utf8;
+15:14:35 select * from mobile_configs
+15:14:36 use ppiao_5u;
+15:14:36 set names utf8;
+15:14:36 select * from mobile_configs
+15:14:37 use ppiao_5u;
+15:14:37 set names utf8;
+15:14:37 select * from mobile_configs
+15:14:40 use ppiao_5u;
+15:14:40 set names utf8;
+15:14:40 select * from mobile_configs
+15:14:43 use ppiao_5u;
+15:14:43 set names utf8;
+15:14:43 select * from mobile_configs
+15:14:44 use ppiao_5u;
+15:14:44 set names utf8;
+15:14:44 select * from mobile_configs
+15:14:45 use ppiao_5u;
+15:14:45 set names utf8;
+15:14:45 select * from mobile_configs
+15:14:46 use ppiao_5u;
+15:14:46 set names utf8;
+15:14:46 select * from mobile_configs
+15:14:48 use ppiao_5u;
+15:14:48 set names utf8;
+15:14:48 select * from mobile_configs
+15:14:49 use ppiao_5u;
+15:14:49 set names utf8;
+15:14:49 select * from mobile_configs
+15:14:50 use ppiao_5u;
+15:14:50 set names utf8;
+15:14:50 select * from mobile_configs
+15:14:51 use ppiao_5u;
+15:14:51 set names utf8;
+15:14:51 select * from mobile_configs
+15:14:53 use ppiao_5u;
+15:14:53 set names utf8;
+15:14:53 select * from mobile_configs
+15:28:17 use ppiao_5u;
+15:28:17 set names utf8;
+15:28:17 select * from mobile_configs
+15:28:28 use ppiao_5u;
+15:28:28 set names utf8;
+15:28:28 select * from mobile_configs
+15:28:30 use ppiao_5u;
+15:28:30 set names utf8;
+15:28:30 select * from mobile_configs
+15:28:31 use ppiao_5u;
+15:28:31 set names utf8;
+15:28:31 select * from mobile_configs
+15:28:32 use ppiao_5u;
+15:28:32 set names utf8;
+15:28:32 select * from mobile_configs
+15:29:53 use ppiao_5u;
+15:29:53 set names utf8;
+15:29:53 select * from mobile_configs
+15:30:06 use ppiao_5u;
+15:30:06 set names utf8;
+15:30:06 select * from mobile_configs
+15:30:07 use ppiao_5u;
+15:30:07 set names utf8;
+15:30:07 select * from mobile_configs
+15:30:20 use ppiao_5u;
+15:30:20 set names utf8;
+15:30:20 select * from mobile_configs
+15:30:21 use ppiao_5u;
+15:30:21 set names utf8;
+15:30:21 select * from mobile_configs
+15:30:21 use ppiao_5u;
+15:30:21 set names utf8;
+15:30:21 select * from mobile_configs
+15:30:21 use ppiao_5u;
+15:30:21 set names utf8;
+15:30:21 select * from mobile_configs
+15:30:21 use ppiao_5u;
+15:30:21 set names utf8;
+15:30:21 select * from mobile_configs
+15:30:22 use ppiao_5u;
+15:30:22 set names utf8;
+15:30:22 select * from mobile_configs
+15:30:22 use ppiao_5u;
+15:30:22 set names utf8;
+15:30:22 select * from mobile_configs
+15:30:23 use ppiao_5u;
+15:30:23 set names utf8;
+15:30:23 select * from mobile_configs
+15:30:24 use ppiao_5u;
+15:30:24 set names utf8;
+15:30:24 select * from mobile_configs
+15:30:37 use ppiao_5u;
+15:30:37 set names utf8;
+15:30:37 select * from mobile_configs
+15:30:40 use ppiao_5u;
+15:30:40 set names utf8;
+15:30:40 select * from mobile_configs
+15:31:19 use ppiao_5u;
+15:31:19 set names utf8;
+15:31:19 select * from mobile_configs
+15:31:21 use ppiao_5u;
+15:31:21 set names utf8;
+15:31:21 select * from mobile_configs
+15:31:21 use ppiao_5u;
+15:31:21 set names utf8;
+15:31:21 select * from mobile_configs
+15:31:21 use ppiao_5u;
+15:31:21 set names utf8;
+15:31:21 select * from mobile_configs
+15:31:33 use ppiao_5u;
+15:31:33 set names utf8;
+15:31:33 select * from mobile_configs
+15:31:37 use ppiao_5u;
+15:31:37 set names utf8;
+15:31:37 select * from mobile_configs
+15:31:38 use ppiao_5u;
+15:31:38 set names utf8;
+15:31:38 select * from mobile_configs
+15:31:38 use ppiao_5u;
+15:31:38 set names utf8;
+15:31:38 select * from mobile_configs
+15:31:38 use ppiao_5u;
+15:31:38 set names utf8;
+15:31:38 select * from mobile_configs
+15:31:43 use ppiao_5u;
+15:31:43 set names utf8;
+15:31:43 select * from mobile_configs
+15:31:44 use ppiao_5u;
+15:31:44 set names utf8;
+15:31:44 select * from mobile_configs
+15:32:01 use ppiao_5u;
+15:32:01 set names utf8;
+15:32:01 select * from mobile_configs
+15:32:02 use ppiao_5u;
+15:32:02 set names utf8;
+15:32:02 select * from mobile_configs
+15:32:10 use ppiao_5u;
+15:32:10 set names utf8;
+15:32:10 select * from mobile_configs
+15:32:14 use ppiao_5u;
+15:32:14 set names utf8;
+15:32:14 select * from mobile_configs
+15:33:06 use ppiao_5u;
+15:33:06 set names utf8;
+15:33:06 select * from mobile_configs
+15:33:07 use ppiao_5u;
+15:33:07 set names utf8;
+15:33:07 select * from mobile_configs
+15:35:37 use ppiao_5u;
+15:35:37 set names utf8;
+15:35:37 select * from mobile_configs
+15:35:38 use ppiao_5u;
+15:35:38 set names utf8;
+15:35:38 select * from mobile_configs
+15:35:38 use ppiao_5u;
+15:35:38 set names utf8;
+15:35:38 select * from mobile_configs
+15:35:57 use ppiao_5u;
+15:35:57 set names utf8;
+15:35:57 select * from mobile_configs
+15:35:57 select * from ecs_users where user_name=wan and password=b2ca678b4c936f905fb82f2733f5297f
+15:36:34 use ppiao_5u;
+15:36:34 set names utf8;
+15:36:34 select * from mobile_configs
+15:36:34 select * from ecs_users where user_name='wan' and password='b2ca678b4c936f905fb82f2733f5297f'
+15:36:37 use ppiao_5u;
+15:36:37 set names utf8;
+15:36:37 select * from mobile_configs
+15:36:39 use ppiao_5u;
+15:36:39 set names utf8;
+15:36:39 select * from mobile_configs
+15:36:39 select * from ecs_users where user_name='wan' and password='02a05c6e278d3e19afaca4f3f7cf47d9'
+15:36:41 use ppiao_5u;
+15:36:41 set names utf8;
+15:36:41 select * from mobile_configs
+15:36:47 use ppiao_5u;
+15:36:47 set names utf8;
+15:36:47 select * from mobile_configs
+15:36:47 select * from ecs_users where user_name='wangqiqi21' and password='fa270fc29196eab2c6bfe5b123a19010'
+15:36:49 use ppiao_5u;
+15:36:49 set names utf8;
+15:36:49 select * from mobile_configs
+15:36:51 use ppiao_5u;
+15:36:51 set names utf8;
+15:36:51 select * from mobile_configs
+15:36:51 select * from ecs_users where user_name='wangqiqi21' and password='6e6b4eb37a7ca16e13c91fd050c7f90d'
+15:37:16 use ppiao_5u;
+15:37:16 set names utf8;
+15:37:16 select * from mobile_configs
+15:37:16 select * from ecs_users where user_name='wangqiqi21' and password='6e6b4eb37a7ca16e13c91fd050c7f90d'
+15:38:21 use ppiao_5u;
+15:38:21 set names utf8;
+15:38:21 select * from mobile_configs
+15:40:47 use ppiao_5u;
+15:40:47 set names utf8;
+15:40:47 select * from mobile_configs
+15:40:49 use ppiao_5u;
+15:40:49 set names utf8;
+15:40:49 select * from mobile_configs
+15:40:55 use ppiao_5u;
+15:40:55 set names utf8;
+15:40:55 select * from mobile_configs
+15:40:55 select * from ecs_users where user_name='wangqiqi21' and password='6e6b4eb37a7ca16e13c91fd050c7f90d'
+15:40:57 use ppiao_5u;
+15:40:57 set names utf8;
+15:40:57 select * from mobile_configs
+15:40:57 select * from ecs_users where id=70448
+15:42:01 use ppiao_5u;
+15:42:01 set names utf8;
+15:42:01 select * from mobile_configs
+15:42:01 select * from ecs_users where 70448='0'
+15:42:24 use ppiao_5u;
+15:42:24 set names utf8;
+15:42:24 select * from mobile_configs
+15:42:24 select * from ecs_users where user_id='70448'
+15:53:22 use ppiao_5u;
+15:53:22 set names utf8;
+15:53:22 select * from mobile_configs
+15:53:22 select * from ecs_users where user_id='70448'
+15:53:29 use ppiao_5u;
+15:53:29 set names utf8;
+15:53:29 select * from mobile_configs
+15:53:29 select * from ecs_users where user_id='70448'
+15:53:50 use ppiao_5u;
+15:53:50 set names utf8;
+15:53:50 select * from mobile_configs
+15:53:50 select * from ecs_users where user_id='70448'
+15:53:50 select * from ecs_user_rank where rank_id='6'
+15:53:54 use ppiao_5u;
+15:53:54 set names utf8;
+15:53:54 select * from mobile_configs
+15:53:57 use ppiao_5u;
+15:53:57 set names utf8;
+15:53:57 select * from mobile_configs
+15:53:57 select * from ecs_users where user_id='70448'
+15:53:57 select * from ecs_user_rank where rank_id='6'
+15:54:42 use ppiao_5u;
+15:54:42 set names utf8;
+15:54:42 select * from mobile_configs
+15:54:42 select * from ecs_users where user_id='70448'
+15:54:42 select * from ecs_user_rank where rank_id='6'
+15:54:42 use ppiao_5u;
+15:54:42 set names utf8;
+15:54:42 select * from mobile_configs
+15:54:42 select * from ecs_users where user_id='70448'
+15:54:42 select * from ecs_user_rank where rank_id='6'
+15:54:43 use ppiao_5u;
+15:54:43 set names utf8;
+15:54:43 select * from mobile_configs
+15:54:43 select * from ecs_users where user_id='70448'
+15:54:43 select * from ecs_user_rank where rank_id='6'
+15:54:43 use ppiao_5u;
+15:54:43 set names utf8;
+15:54:43 select * from mobile_configs
+15:54:43 select * from ecs_users where user_id='70448'
+15:54:43 select * from ecs_user_rank where rank_id='6'
+15:54:43 use ppiao_5u;
+15:54:43 set names utf8;
+15:54:43 select * from mobile_configs
+15:54:43 select * from ecs_users where user_id='70448'
+15:54:43 select * from ecs_user_rank where rank_id='6'
+15:59:28 use ppiao_5u;
+15:59:28 set names utf8;
+15:59:28 select * from mobile_configs
+15:59:28 select * from ecs_users where user_id='70448'
+15:59:28 select * from ecs_user_rank where rank_id='6'
+15:59:29 use ppiao_5u;
+15:59:29 set names utf8;
+15:59:29 select * from mobile_configs
+15:59:29 select * from ecs_users where user_id='70448'
+15:59:29 select * from ecs_user_rank where rank_id='6'
+15:59:29 use ppiao_5u;
+15:59:29 set names utf8;
+15:59:29 select * from mobile_configs
+15:59:29 select * from ecs_users where user_id='70448'
+15:59:29 select * from ecs_user_rank where rank_id='6'
+15:59:29 use ppiao_5u;
+15:59:29 set names utf8;
+15:59:29 select * from mobile_configs
+15:59:29 select * from ecs_users where user_id='70448'
+15:59:29 select * from ecs_user_rank where rank_id='6'
+15:59:30 use ppiao_5u;
+15:59:30 set names utf8;
+15:59:30 select * from mobile_configs
+15:59:30 select * from ecs_users where user_id='70448'
+15:59:30 select * from ecs_user_rank where rank_id='6'
+15:59:30 use ppiao_5u;
+15:59:30 set names utf8;
+15:59:30 select * from mobile_configs
+15:59:30 select * from ecs_users where user_id='70448'
+15:59:30 select * from ecs_user_rank where rank_id='6'
+15:59:31 use ppiao_5u;
+15:59:31 set names utf8;
+15:59:31 select * from mobile_configs
+15:59:31 select * from ecs_users where user_id='70448'
+15:59:31 select * from ecs_user_rank where rank_id='6'
+15:59:31 use ppiao_5u;
+15:59:31 set names utf8;
+15:59:31 select * from mobile_configs
+15:59:31 select * from ecs_users where user_id='70448'
+15:59:31 select * from ecs_user_rank where rank_id='6'
+15:59:32 use ppiao_5u;
+15:59:32 set names utf8;
+15:59:32 select * from mobile_configs
+15:59:32 select * from ecs_users where user_id='70448'
+15:59:32 select * from ecs_user_rank where rank_id='6'
+15:59:33 use ppiao_5u;
+15:59:33 set names utf8;
+15:59:33 select * from mobile_configs
+15:59:33 select * from ecs_users where user_id='70448'
+15:59:33 select * from ecs_user_rank where rank_id='6'
+15:59:34 use ppiao_5u;
+15:59:34 set names utf8;
+15:59:34 select * from mobile_configs
+15:59:34 select * from ecs_users where user_id='70448'
+15:59:34 select * from ecs_user_rank where rank_id='6'
+15:59:35 use ppiao_5u;
+15:59:35 set names utf8;
+15:59:35 select * from mobile_configs
+15:59:35 select * from ecs_users where user_id='70448'
+15:59:35 select * from ecs_user_rank where rank_id='6'
+15:59:36 use ppiao_5u;
+15:59:36 set names utf8;
+15:59:36 select * from mobile_configs
+15:59:36 select * from ecs_users where user_id='70448'
+15:59:36 select * from ecs_user_rank where rank_id='6'
+15:59:36 use ppiao_5u;
+15:59:36 set names utf8;
+15:59:36 select * from mobile_configs
+15:59:36 select * from ecs_users where user_id='70448'
+15:59:36 select * from ecs_user_rank where rank_id='6'
+15:59:36 use ppiao_5u;
+15:59:36 set names utf8;
+15:59:36 select * from mobile_configs
+15:59:36 select * from ecs_users where user_id='70448'
+15:59:36 select * from ecs_user_rank where rank_id='6'
+15:59:38 use ppiao_5u;
+15:59:38 set names utf8;
+15:59:38 select * from mobile_configs
+15:59:38 select * from ecs_users where user_id='70448'
+15:59:38 select * from ecs_user_rank where rank_id='6'
+15:59:40 use ppiao_5u;
+15:59:40 set names utf8;
+15:59:40 select * from mobile_configs
+15:59:40 select * from ecs_users where user_id='70448'
+15:59:40 select * from ecs_user_rank where rank_id='6'
+15:59:41 use ppiao_5u;
+15:59:41 set names utf8;
+15:59:41 select * from mobile_configs
+15:59:41 select * from ecs_users where user_id='70448'
+15:59:41 select * from ecs_user_rank where rank_id='6'
+15:59:42 use ppiao_5u;
+15:59:42 set names utf8;
+15:59:42 select * from mobile_configs
+16:02:04 use ppiao_5u;
+16:02:04 set names utf8;
+16:02:04 select * from mobile_configs
+16:02:05 use ppiao_5u;
+16:02:05 set names utf8;
+16:02:05 select * from mobile_configs
+16:02:06 use ppiao_5u;
+16:02:06 set names utf8;
+16:02:06 select * from mobile_configs
+16:02:06 use ppiao_5u;
+16:02:06 set names utf8;
+16:02:06 select * from mobile_configs
+16:02:07 use ppiao_5u;
+16:02:07 set names utf8;
+16:02:07 select * from mobile_configs
+16:02:07 use ppiao_5u;
+16:02:07 set names utf8;
+16:02:07 select * from mobile_configs
+16:06:02 use ppiao_5u;
+16:06:02 set names utf8;
+16:06:02 select * from mobile_configs
+16:09:40 use ppiao_5u;
+16:09:40 set names utf8;
+16:09:40 select * from mobile_configs
+16:09:44 use ppiao_5u;
+16:09:44 set names utf8;
+16:09:44 select * from mobile_configs
+16:09:45 use ppiao_5u;
+16:09:45 set names utf8;
+16:09:45 select * from mobile_configs
+16:09:45 select * from ecs_users where user_id='70448'
+16:09:45 select * from ecs_user_rank where rank_id='6'
+16:09:49 use ppiao_5u;
+16:09:49 set names utf8;
+16:09:49 select * from mobile_configs
+16:09:51 use ppiao_5u;
+16:09:51 set names utf8;
+16:09:51 select * from mobile_configs
+16:09:51 use ppiao_5u;
+16:09:51 set names utf8;
+16:09:51 select * from mobile_configs
+16:09:52 use ppiao_5u;
+16:09:52 set names utf8;
+16:09:52 select * from mobile_configs
+16:09:52 use ppiao_5u;
+16:09:52 set names utf8;
+16:09:52 select * from mobile_configs
+16:09:52 use ppiao_5u;
+16:09:52 set names utf8;
+16:09:52 select * from mobile_configs
+16:19:35 use ppiao_5u;
+16:19:35 set names utf8;
+16:19:35 select * from mobile_configs
+16:19:35 use ppiao_5u;
+16:19:35 set names utf8;
+16:19:35 select * from mobile_configs
+16:19:35 use ppiao_5u;
+16:19:35 set names utf8;
+16:19:35 select * from mobile_configs
+16:21:41 use ppiao_5u;
+16:21:41 set names utf8;
+16:21:41 select * from mobile_configs
+16:21:41 select * from ecs_users where user_id='70448'
+16:21:41 select * from ecs_user_rank where rank_id='6'
+16:21:44 use ppiao_5u;
+16:21:44 set names utf8;
+16:21:44 select * from mobile_configs
+16:21:44 select * from ecs_users where user_id='70448'
+16:21:44 select * from ecs_user_rank where rank_id='6'
+16:21:45 use ppiao_5u;
+16:21:45 set names utf8;
+16:21:45 select * from mobile_configs
+16:21:45 select * from ecs_users where user_id='70448'
+16:21:45 select * from ecs_user_rank where rank_id='6'
+16:21:47 use ppiao_5u;
+16:21:47 set names utf8;
+16:21:47 select * from mobile_configs
+16:21:47 select * from ecs_users where user_id='70448'
+16:21:47 select * from ecs_user_rank where rank_id='6'
+16:21:53 use ppiao_5u;
+16:21:53 set names utf8;
+16:21:53 select * from mobile_configs
+16:21:53 select * from ecs_users where user_id='70448'
+16:21:53 select * from ecs_user_rank where rank_id='6'
+16:21:56 use ppiao_5u;
+16:21:56 set names utf8;
+16:21:56 select * from mobile_configs
+16:21:56 select * from ecs_users where user_id='70448'
+16:21:56 select * from ecs_user_rank where rank_id='6'
+16:22:20 use ppiao_5u;
+16:22:20 set names utf8;
+16:22:20 select * from mobile_configs
+16:22:23 use ppiao_5u;
+16:22:23 set names utf8;
+16:22:23 select * from mobile_configs
+16:22:27 use ppiao_5u;
+16:22:27 set names utf8;
+16:22:27 select * from mobile_configs
+16:22:27 select * from ecs_users where user_name='wangqiqi21' and password='6e6b4eb37a7ca16e13c91fd050c7f90d'
+16:22:27 select * from ecs_user_rank where rank_id='6'
+16:22:35 use ppiao_5u;
+16:22:35 set names utf8;
+16:22:35 select * from mobile_configs
+16:22:35 select * from ecs_users where user_id='70448'
+16:22:35 select * from ecs_user_rank where rank_id='6'
+16:22:37 use ppiao_5u;
+16:22:37 set names utf8;
+16:22:37 select * from mobile_configs
+16:22:37 select * from ecs_users where user_id='70448'
+16:22:37 select * from ecs_user_rank where rank_id='6'
+16:22:39 use ppiao_5u;
+16:22:39 set names utf8;
+16:22:39 select * from mobile_configs
+16:22:39 select * from ecs_users where user_id='70448'
+16:22:39 select * from ecs_user_rank where rank_id='6'
+16:28:36 use ppiao_5u;
+16:28:36 set names utf8;
+16:28:36 select * from mobile_configs
+16:28:36 select * from ecs_users where user_id='70448'
+16:28:36 select * from ecs_user_rank where rank_id='6'
+16:28:59 use ppiao_5u;
+16:28:59 set names utf8;
+16:28:59 select * from mobile_configs
+16:28:59 select * from ecs_users where user_id='70448'
+16:28:59 select * from ecs_user_rank where rank_id='6'
+16:28:59 select * from ecs_goods where goods_id=3
+16:28:59 select * from ecs_goods_gallery where goods_id=3
+16:29:01 use ppiao_5u;
+16:29:01 set names utf8;
+16:29:01 select * from mobile_configs
+16:29:01 select * from ecs_users where user_id='70448'
+16:29:01 select * from ecs_user_rank where rank_id='6'
+16:29:01 select * from ecs_goods where goods_id=3
+16:29:01 select * from ecs_goods_gallery where goods_id=3

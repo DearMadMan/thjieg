@@ -1,0 +1,16 @@
+
+//////////////////2013.12.19/////////////////////////////////////
+1.增加smarty模版引擎
+2.解决smarty模版引擎 __autoload 覆盖问题  使用 spl_autoload_register
+3.修复warning _get _set _unset 应使用pulic 修饰 并不允许使用static
+4.mysql::Getinstance()  instance方法应使用static修饰
+//////////////////2013.12.28/////////////////////////////////////
+1.增加分页类
+2.增加getRes接口
+3.增加CreatePageRow接口
+4.对CreatePageRow接口进行优化
+//////////////////2014.01.02/////////////////////////////////////
+1.增加admin 操作记录专用sql日志 
+2.增加plugin目录 用于存放website所需插件
+3.增加ckeditor插件
+4.优化pagetool工具代码

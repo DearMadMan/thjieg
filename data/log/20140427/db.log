@@ -1,0 +1,192 @@
+12:13:21 use ppiao_5u;
+12:13:21 set names utf8;
+12:13:21 select * from mobile_configs
+12:14:12 use ppiao_5u;
+12:14:12 set names utf8;
+12:14:12 select * from mobile_configs
+12:15:05 use ppiao_5u;
+12:15:05 set names utf8;
+12:15:05 select * from mobile_configs
+12:15:07 use ppiao_5u;
+12:15:07 set names utf8;
+12:15:07 select * from mobile_configs
+12:15:29 use ppiao_5u;
+12:15:29 set names utf8;
+12:15:29 select * from mobile_configs
+12:18:38 use ppiao_5u;
+12:18:38 set names utf8;
+12:18:38 select * from mobile_configs
+12:20:56 use ppiao_5u;
+12:20:56 set names utf8;
+12:20:56 select * from mobile_configs
+12:35:07 use ppiao_5u;
+12:35:07 set names utf8;
+12:35:07 select * from mobile_configs
+12:35:07 use ppiao_5u;
+12:35:07 set names utf8;
+12:35:07 select * from mobile_configs
+12:39:50 use ppiao_5u;
+12:39:50 set names utf8;
+12:39:50 select * from mobile_configs
+12:41:08 use ppiao_5u;
+12:41:08 set names utf8;
+12:41:08 select * from mobile_configs
+12:41:08 use ppiao_5u;
+12:41:08 set names utf8;
+12:41:08 select * from mobile_configs
+12:41:08 use ppiao_5u;
+12:41:08 set names utf8;
+12:41:08 select * from mobile_configs
+12:41:13 use ppiao_5u;
+12:41:13 set names utf8;
+12:41:13 select * from mobile_configs
+12:41:13 select * from admin where admin_name='myadmin' and admin_word='5eeab10287d949453b8e403c04675d8f'
+12:43:27 use thjiegeng;
+12:43:27 set names utf8;
+12:43:27 select * from mobile_configs
+12:43:39 use thjiegeng;
+12:43:39 set names utf8;
+12:43:39 select * from configs
+12:43:52 use thjiegeng;
+12:43:52 set names utf8;
+12:43:52 select * from configs
+12:43:58 use thjiegeng;
+12:43:58 set names utf8;
+12:43:58 select * from configs
+12:43:58 select * from admin where admin_name='myadmin' and admin_word='5eeab10287d949453b8e403c04675d8f'
+12:43:58 use thjiegeng;
+12:43:58 set names utf8;
+12:43:58 select * from configs
+12:45:22 use thjiegeng;
+12:45:22 set names utf8;
+12:45:22 select * from configs
+12:45:22 select * from categroy
+12:45:25 use thjiegeng;
+12:45:25 set names utf8;
+12:45:25 select * from configs
+12:56:50 use thjiegeng;
+12:56:50 set names utf8;
+12:56:50 select * from configs
+12:56:52 use thjiegeng;
+12:56:52 set names utf8;
+12:56:52 select * from configs
+12:56:52 select * from article_type
+12:58:32 use thjiegeng;
+12:58:32 set names utf8;
+12:58:32 select * from configs
+12:58:32 select * from article_type
+12:58:32 use thjiegeng;
+12:58:32 set names utf8;
+12:58:32 select * from configs
+12:58:32 select * from article_type
+12:58:34 use thjiegeng;
+12:58:34 set names utf8;
+12:58:34 select * from configs
+12:58:34 select * from article_type
+13:03:29 use thjiegeng;
+13:03:29 set names utf8;
+13:03:29 select * from configs
+13:03:43 use thjiegeng;
+13:03:43 set names utf8;
+13:03:43 select * from configs
+13:03:44 use thjiegeng;
+13:03:44 set names utf8;
+13:03:44 select * from configs
+13:03:44 use thjiegeng;
+13:03:44 set names utf8;
+13:03:44 select * from configs
+13:03:46 use thjiegeng;
+13:03:46 set names utf8;
+13:03:46 select * from configs
+13:03:46 select * from article_type
+13:03:50 use thjiegeng;
+13:03:50 set names utf8;
+13:03:50 select * from configs
+13:03:50 select * from article_type
+13:03:54 use thjiegeng;
+13:03:54 set names utf8;
+13:03:54 select * from configs
+13:04:06 use thjiegeng;
+13:04:06 set names utf8;
+13:04:06 select * from configs
+13:04:06 insert into categroy (categroy_name,parent_id) values ('服务项目','0') ;
+13:06:25 use thjiegeng;
+13:06:25 set names utf8;
+13:06:25 select * from configs
+13:06:32 use thjiegeng;
+13:06:32 set names utf8;
+13:06:32 select * from configs
+13:06:32 insert into article_type (type_name) values ('服务项目') ;
+13:06:33 use thjiegeng;
+13:06:33 set names utf8;
+13:06:33 select * from configs
+13:06:36 use thjiegeng;
+13:06:36 set names utf8;
+13:06:36 select * from configs
+13:06:36 select * from article_type
+13:07:54 use thjiegeng;
+13:07:54 set names utf8;
+13:07:54 select * from configs
+13:07:54 select * from article_type
+13:08:08 use thjiegeng;
+13:08:08 set names utf8;
+13:08:08 select * from configs
+13:08:08 select * from article_type
+13:08:35 use thjiegeng;
+13:08:35 set names utf8;
+13:08:35 select * from configs
+13:08:41 use thjiegeng;
+13:08:41 set names utf8;
+13:08:41 select * from configs
+13:08:41 insert into article_type (type_name) values ('服务团队') ;
+13:08:43 use thjiegeng;
+13:08:43 set names utf8;
+13:08:43 select * from configs
+13:08:45 use thjiegeng;
+13:08:45 set names utf8;
+13:08:45 select * from configs
+13:08:50 use thjiegeng;
+13:08:50 set names utf8;
+13:08:50 select * from configs
+13:08:50 insert into article_type (type_name) values ('服务活动') ;
+13:08:55 use thjiegeng;
+13:08:55 set names utf8;
+13:08:55 select * from configs
+13:08:59 use thjiegeng;
+13:08:59 set names utf8;
+13:08:59 select * from configs
+13:09:06 use thjiegeng;
+13:09:06 set names utf8;
+13:09:06 select * from configs
+13:09:06 select * from article_type
+13:09:11 use thjiegeng;
+13:09:11 set names utf8;
+13:09:11 select * from configs
+13:09:18 use thjiegeng;
+13:09:18 set names utf8;
+13:09:18 select * from configs
+13:09:18 select * from article_type
+13:09:27 use thjiegeng;
+13:09:27 set names utf8;
+13:09:27 select * from configs
+13:09:27 insert into article_type (type_name) values ('成功案例') ;
+13:09:32 use thjiegeng;
+13:09:32 set names utf8;
+13:09:32 select * from configs
+13:09:35 use thjiegeng;
+13:09:35 set names utf8;
+13:09:35 select * from configs
+13:09:48 use thjiegeng;
+13:09:48 set names utf8;
+13:09:48 select * from configs
+13:09:48 insert into article_type (type_name) values ('行业资讯') ;
+13:09:53 use thjiegeng;
+13:09:53 set names utf8;
+13:09:53 select * from configs
+13:09:53 select * from article_type
+13:09:59 use thjiegeng;
+13:09:59 set names utf8;
+13:09:59 select * from configs
+13:10:31 use thjiegeng;
+13:10:31 set names utf8;
+13:10:31 select * from configs
