@@ -1,0 +1,328 @@
+08:37:26 use thjiegeng;
+08:37:26 set names utf8;
+08:37:26 select * from configs
+08:37:26 select * from article_type 
+08:37:28 use thjiegeng;
+08:37:28 set names utf8;
+08:37:28 select * from configs
+08:37:28 select * from article_type 
+08:37:29 use thjiegeng;
+08:37:29 set names utf8;
+08:37:29 select * from configs
+08:37:29 select * from article_type 
+08:37:29 select * from article_type where article_type_id='1'
+08:37:29 select count(a.article_id) from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='1' order by a.article_id desc 
+08:37:29 select a.*,b.type_name from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='1' order by a.article_id desc  limit 0,10
+08:37:29 select * from article_type
+08:37:30 use thjiegeng;
+08:37:30 set names utf8;
+08:37:30 select * from configs
+08:37:30 select * from article_type 
+08:37:30 select * from article_type where article_type_id='2'
+08:37:30 select count(a.article_id) from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='2' order by a.article_id desc 
+08:37:30 select a.*,b.type_name from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='2' order by a.article_id desc  limit 0,10
+08:37:30 select * from article_type
+08:37:31 use thjiegeng;
+08:37:31 set names utf8;
+08:37:31 select * from configs
+08:37:31 select * from article_type 
+08:37:31 select * from article_type where article_type_id='2'
+08:37:31 select count(a.article_id) from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='2' order by a.article_id desc 
+08:37:31 select a.*,b.type_name from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='2' order by a.article_id desc  limit 0,10
+08:37:31 select * from article_type
+08:37:32 use thjiegeng;
+08:37:32 set names utf8;
+08:37:32 select * from configs
+08:37:32 select * from article_type 
+08:37:32 select * from article_type where article_type_id='3'
+08:37:32 select count(a.article_id) from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='3' order by a.article_id desc 
+08:37:32 select a.*,b.type_name from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='3' order by a.article_id desc  limit 0,10
+08:37:32 select * from article_type
+08:37:33 use thjiegeng;
+08:37:33 set names utf8;
+08:37:33 select * from configs
+08:37:33 select * from article_type 
+08:37:33 select * from article_type where article_type_id='4'
+08:37:33 select count(a.article_id) from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='4' order by a.article_id desc 
+08:37:33 select a.*,b.type_name from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='4' order by a.article_id desc  limit 0,10
+08:37:33 select * from article_type
+08:37:33 use thjiegeng;
+08:37:33 set names utf8;
+08:37:33 select * from configs
+08:37:33 select * from article_type 
+08:37:33 select * from article_type where article_type_id='5'
+08:37:33 select count(a.article_id) from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='5' order by a.article_id desc 
+08:37:33 select a.*,b.type_name from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='5' order by a.article_id desc  limit 0,10
+08:37:33 select * from article_type
+08:37:34 use thjiegeng;
+08:37:34 set names utf8;
+08:37:34 select * from configs
+08:37:34 select * from article_type 
+08:37:35 use thjiegeng;
+08:37:35 set names utf8;
+08:37:35 select * from configs
+08:37:35 select * from article_type 
+08:37:35 select * from article_type where article_type_id='4'
+08:37:35 select count(a.article_id) from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='4' order by a.article_id desc 
+08:37:35 select a.*,b.type_name from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='4' order by a.article_id desc  limit 0,10
+08:37:35 select * from article_type
+08:37:36 use thjiegeng;
+08:37:36 set names utf8;
+08:37:36 select * from configs
+08:37:36 select * from article_type 
+08:37:39 use thjiegeng;
+08:37:39 set names utf8;
+08:37:39 select * from configs
+08:37:39 select * from article_type 
+08:37:39 select * from article_type where article_type_id='5'
+08:37:39 select count(a.article_id) from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='5' order by a.article_id desc 
+08:37:39 select a.*,b.type_name from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='5' order by a.article_id desc  limit 0,10
+08:37:39 select * from article_type
+08:37:40 use thjiegeng;
+08:37:40 set names utf8;
+08:37:40 select * from configs
+08:37:40 select * from article_type 
+08:37:40 select * from article_type where article_type_id='4'
+08:37:40 select count(a.article_id) from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='4' order by a.article_id desc 
+08:37:40 select a.*,b.type_name from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='4' order by a.article_id desc  limit 0,10
+08:37:40 select * from article_type
+08:37:41 use thjiegeng;
+08:37:41 set names utf8;
+08:37:41 select * from configs
+08:37:41 select * from article_type 
+08:37:41 select * from article_type where article_type_id='3'
+08:37:41 select count(a.article_id) from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='3' order by a.article_id desc 
+08:37:41 select a.*,b.type_name from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='3' order by a.article_id desc  limit 0,10
+08:37:41 select * from article_type
+08:37:41 use thjiegeng;
+08:37:41 set names utf8;
+08:37:41 select * from configs
+08:37:41 select * from article_type 
+08:37:41 select * from article_type where article_type_id='2'
+08:37:41 select count(a.article_id) from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='2' order by a.article_id desc 
+08:37:41 select a.*,b.type_name from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='2' order by a.article_id desc  limit 0,10
+08:37:41 select * from article_type
+08:37:42 use thjiegeng;
+08:37:42 set names utf8;
+08:37:42 select * from configs
+08:37:42 select * from article_type 
+08:37:42 select * from article_type where article_type_id='1'
+08:37:42 select count(a.article_id) from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='1' order by a.article_id desc 
+08:37:42 select a.*,b.type_name from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='1' order by a.article_id desc  limit 0,10
+08:37:42 select * from article_type
+08:37:42 use thjiegeng;
+08:37:42 set names utf8;
+08:37:42 select * from configs
+08:37:42 select * from article_type 
+08:37:43 use thjiegeng;
+08:37:43 set names utf8;
+08:37:43 select * from configs
+08:37:43 select * from article_type 
+08:37:51 use thjiegeng;
+08:37:51 set names utf8;
+08:37:51 select * from configs
+08:37:51 select * from article_type 
+13:56:43 use thjiegeng;
+13:56:43 set names utf8;
+13:56:43 select * from configs
+13:56:43 select * from article_type 
+13:56:43 use thjiegeng;
+13:56:43 set names utf8;
+13:56:43 select * from configs
+13:56:43 select * from article_type 
+13:56:56 use thjiegeng;
+13:56:56 set names utf8;
+13:56:56 select * from configs
+13:56:56 select * from article_type 
+13:56:56 select * from admin where admin_name='myadmin' and admin_word='5eeab10287d949453b8e403c04675d8f'
+13:56:56 use thjiegeng;
+13:56:56 set names utf8;
+13:56:56 select * from configs
+13:56:56 select * from article_type 
+13:56:56 use thjiegeng;
+13:56:56 set names utf8;
+13:56:56 select * from configs
+13:56:56 select * from article_type 
+13:56:56 select count(a.article_id) from article as a left join article_type as b on a.article_type_id=b.article_type_id order by a.article_id desc
+13:56:56 select a.*,b.type_name from article as a left join article_type as b on a.article_type_id=b.article_type_id order by a.article_id desc limit 0,20
+13:56:59 use thjiegeng;
+13:56:59 set names utf8;
+13:56:59 select * from configs
+13:56:59 select * from article_type 
+13:56:59 select count(a.article_id) from article as a left join article_type as b on a.article_type_id=b.article_type_id order by a.article_id desc
+13:56:59 select a.*,b.type_name from article as a left join article_type as b on a.article_type_id=b.article_type_id order by a.article_id desc limit 0,20
+13:56:59 use thjiegeng;
+13:56:59 set names utf8;
+13:56:59 select * from configs
+13:56:59 select * from article_type 
+13:56:59 select * from article_type
+13:58:39 use thjiegeng;
+13:58:39 set names utf8;
+13:58:39 select * from configs
+13:58:39 select * from article_type 
+13:58:39 select * from article_type
+14:06:32 use thjiegeng;
+14:06:32 set names utf8;
+14:06:32 select * from configs
+14:06:32 select * from article_type 
+14:06:32 select * from article_type
+14:08:49 use thjiegeng;
+14:08:49 set names utf8;
+14:08:49 select * from configs
+14:08:49 select * from article_type 
+14:08:49 select * from article_type
+14:08:59 use thjiegeng;
+14:08:59 set names utf8;
+14:08:59 select * from configs
+14:08:59 select * from article_type 
+14:19:54 use thjiegeng;
+14:19:54 set names utf8;
+14:19:54 select * from configs
+14:19:54 select * from article_type 
+14:19:54 select * from article_type
+14:20:24 use thjiegeng;
+14:20:24 set names utf8;
+14:20:24 select * from configs
+14:20:24 select * from article_type 
+14:20:24 select * from article_type
+14:20:58 use thjiegeng;
+14:20:58 set names utf8;
+14:20:58 select * from configs
+14:20:58 select * from article_type 
+14:20:58 select * from article_type
+14:20:59 use thjiegeng;
+14:20:59 set names utf8;
+14:20:59 select * from configs
+14:20:59 select * from article_type 
+14:20:59 select * from article_type
+14:20:59 use thjiegeng;
+14:20:59 set names utf8;
+14:20:59 select * from configs
+14:20:59 select * from article_type 
+14:20:59 select * from article_type
+14:20:59 use thjiegeng;
+14:20:59 set names utf8;
+14:20:59 select * from configs
+14:20:59 select * from article_type 
+14:20:59 select * from article_type
+14:20:59 use thjiegeng;
+14:20:59 set names utf8;
+14:20:59 select * from configs
+14:20:59 select * from article_type 
+14:20:59 select * from article_type
+14:20:59 use thjiegeng;
+14:20:59 set names utf8;
+14:20:59 select * from configs
+14:20:59 select * from article_type 
+14:20:59 select * from article_type
+14:22:46 use thjiegeng;
+14:22:46 set names utf8;
+14:22:46 select * from configs
+14:22:46 select * from article_type 
+14:22:46 select * from article_type
+14:25:42 use thjiegeng;
+14:25:42 set names utf8;
+14:25:42 select * from configs
+14:25:42 select * from article_type 
+14:30:08 use thjiegeng;
+14:30:08 set names utf8;
+14:30:08 select * from configs
+14:30:08 select * from article_type 
+14:30:08 select * from article_type
+14:30:24 use thjiegeng;
+14:30:24 set names utf8;
+14:30:24 select * from configs
+14:30:24 select * from article_type 
+14:31:19 use thjiegeng;
+14:31:19 set names utf8;
+14:31:19 select * from configs
+14:31:19 select * from article_type 
+14:31:19 select * from article_type
+14:31:28 use thjiegeng;
+14:31:28 set names utf8;
+14:31:28 select * from configs
+14:31:28 select * from article_type 
+14:34:27 use thjiegeng;
+14:34:27 set names utf8;
+14:34:27 select * from configs
+14:34:27 select * from article_type 
+14:34:27 select * from article_type
+14:34:27 use thjiegeng;
+14:34:27 set names utf8;
+14:34:27 select * from configs
+14:34:27 select * from article_type 
+14:34:27 select * from article_type
+14:34:27 use thjiegeng;
+14:34:27 set names utf8;
+14:34:27 select * from configs
+14:34:27 select * from article_type 
+14:34:27 select * from article_type
+14:34:36 use thjiegeng;
+14:34:36 set names utf8;
+14:34:36 select * from configs
+14:34:36 select * from article_type 
+14:35:26 use thjiegeng;
+14:35:26 set names utf8;
+14:35:26 select * from configs
+14:35:26 select * from article_type 
+14:35:26 select * from article_type
+14:35:38 use thjiegeng;
+14:35:38 set names utf8;
+14:35:38 select * from configs
+14:35:38 select * from article_type 
+14:38:13 use thjiegeng;
+14:38:13 set names utf8;
+14:38:13 select * from configs
+14:38:13 select * from article_type 
+14:38:13 select * from article_type
+14:38:13 use thjiegeng;
+14:38:13 set names utf8;
+14:38:13 select * from configs
+14:38:13 select * from article_type 
+14:38:13 select * from article_type
+14:38:13 use thjiegeng;
+14:38:13 set names utf8;
+14:38:13 select * from configs
+14:38:13 select * from article_type 
+14:38:13 select * from article_type
+14:38:27 use thjiegeng;
+14:38:27 set names utf8;
+14:38:27 select * from configs
+14:38:27 select * from article_type 
+14:38:53 use thjiegeng;
+14:38:53 set names utf8;
+14:38:53 select * from configs
+14:38:53 select * from article_type 
+14:38:58 use thjiegeng;
+14:38:58 set names utf8;
+14:38:58 select * from configs
+14:38:58 select * from article_type 
+14:38:58 insert into article (article_type_id,title,content,add_time) values ('1','','<p><img alt=\"\" src=\"http://test.com/images/20140428/139866710701502685.jpg\" style=\"height:500px; width:500px\" /><img alt=\"\" src=\"http://test.com/images/20140428/139866713303185119.jpg\" style=\"height:200px; width:200px\" /></p>
+','1398667138') ;
+14:39:04 use thjiegeng;
+14:39:04 set names utf8;
+14:39:04 select * from configs
+14:39:04 select * from article_type 
+14:39:06 use thjiegeng;
+14:39:06 set names utf8;
+14:39:06 select * from configs
+14:39:06 select * from article_type 
+14:39:06 select * from article_type where article_type_id='1'
+14:39:06 select count(a.article_id) from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='1' order by a.article_id desc 
+14:39:06 select a.*,b.type_name from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_type_id='1' order by a.article_id desc  limit 0,10
+14:39:06 select * from article_type
+14:39:21 use thjiegeng;
+14:39:21 set names utf8;
+14:39:21 select * from configs
+14:39:21 select * from article_type 
+14:39:21 select * from article_type
+14:39:31 use thjiegeng;
+14:39:31 set names utf8;
+14:39:31 select * from configs
+14:39:31 select * from article_type 
+14:39:38 use thjiegeng;
+14:39:38 set names utf8;
+14:39:38 select * from configs
+14:39:38 select * from article_type 
+14:39:38 insert into article (article_type_id,title,content,add_time) values ('1','','<p><img alt=\"\" src=\"http://test.com/images/20140428/139866717101991271.jpg\" style=\"height:483px; width:466px\" /></p>
+','1398667178') ;

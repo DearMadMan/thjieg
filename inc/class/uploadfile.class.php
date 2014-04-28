@@ -100,7 +100,7 @@ class uploadfile
 					if(move_uploaded_file($value['tmp_name'][$k], $date_dir_temp.$temp_name))
 					{
 						 $return_paths[]=$date_dir_temp.$temp_name;
-						 echo "ok";
+						// echo "ok";
 					}
 					else
 					{
@@ -142,7 +142,7 @@ class uploadfile
 					if(move_uploaded_file($value['tmp_name'], $date_dir_temp.$temp_name))
 					{
 						 $return_paths[]=$date_dir_temp.$temp_name;
-						 echo "ok";
+						// echo "ok";
 					}
 					else
 					{

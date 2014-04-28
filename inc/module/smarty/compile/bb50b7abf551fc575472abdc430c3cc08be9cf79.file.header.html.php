@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-27 12:20:56
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-28 08:37:26
          compiled from "E:\apache\www\test\view\default\header.html" */ ?>
 <?php /*%%SmartyHeaderCode:3114535c83e1a2cf49-84241495%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'bb50b7abf551fc575472abdc430c3cc08be9cf79' => 
     array (
       0 => 'E:\\apache\\www\\test\\view\\default\\header.html',
-      1 => 1398572453,
+      1 => 1398644997,
       2 => 'file',
     ),
   ),
@@ -17,6 +17,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'version' => 'Smarty-3.1.16',
   'unifunc' => 'content_535c83e1a30838_40367321',
+  'variables' => 
+  array (
+    'article_types' => 0,
+    'v' => 0,
+  ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_535c83e1a30838_40367321')) {function content_535c83e1a30838_40367321($_smarty_tpl) {?>
@@ -36,23 +41,25 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav navbar-right">
 
-                    <li><a href="about.html">关于我们</a>
+                    <li><a href="index.php">关于我们</a>
                     </li>
-                    <li><a href="services.html">服务项目</a>
+                    <?php  $_smarty_tpl->tpl_vars['v'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['v']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['article_types']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['v']->key => $_smarty_tpl->tpl_vars['v']->value) {
+$_smarty_tpl->tpl_vars['v']->_loop = true;
+?>
+                    <li><a href="article.php?article_type_id=<?php echo $_smarty_tpl->tpl_vars['v']->value['article_type_id'];?>
+"><?php echo $_smarty_tpl->tpl_vars['v']->value['type_name'];?>
+</a>
                     </li>
-
-                       <li><a href="contact.php">服务团队</a>
+                    <?php } ?>
+                     <li><a href="contact.php">联系我们</a>
+                    }
                     </li>
-                       <li><a href="contact.php">服务活动</a>
+                    <!--
+                       <li><a href="article.php?article_type_id=1">图片展示</a>
                     </li>
-                       <li><a href="contact.php">成功案例</a>
-                    </li>
-
-                    <li><a href="contact.php">行业资讯</a>
-                    </li>
-
-                       <li><a href="contact.php">图片展示</a>
-                    </li>
+                    -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
