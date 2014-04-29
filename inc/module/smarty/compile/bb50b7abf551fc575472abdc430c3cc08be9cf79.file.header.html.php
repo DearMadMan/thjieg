@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.16, created on 2014-04-28 08:37:26
+<?php /* Smarty version Smarty-3.1.16, created on 2014-04-29 10:00:53
          compiled from "E:\apache\www\test\view\default\header.html" */ ?>
 <?php /*%%SmartyHeaderCode:3114535c83e1a2cf49-84241495%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'bb50b7abf551fc575472abdc430c3cc08be9cf79' => 
     array (
       0 => 'E:\\apache\\www\\test\\view\\default\\header.html',
-      1 => 1398644997,
+      1 => 1398667596,
       2 => 'file',
     ),
   ),
@@ -34,7 +34,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">太和县桔梗产业集群技术服务中心</a>
+                <a class="navbar-brand" href="index.php">太和县桔梗产业集群技术服务中心</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->

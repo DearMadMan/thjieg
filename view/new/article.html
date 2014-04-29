@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>太和县桔梗产业集群技术服务中心</title>
+    <link href="{$vp}/css/css.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" language="javascript" src="js/select.js"></script>
+    <script type="text/javascript" language="JavaScript" src="js/gundong.js"></script>
+    <script src="{$vp}/js/jquery-1.10.2.js" language="javascript" type="text/javascript"></script>
+    <script src="js/oslide.js" language="javascript" type="text/javascript"></script>
+    <script src="js//easing.js" language="javascript" type="text/javascript"></script>
+    <link rel="stylesheet" href="{$vp}/css/style.css" />
+
+</head>
+<body>
+{include file="header.html"}
+
+<div class="lb_nr01">
+                <div class="lb_left">
+                    <div class="znss">
+                        <div class="ht02">
+                            <span class="st14cbai"><a href="#">站内搜索</a></span>
+                        </div>
+                        <form id="form2" action="result.aspx" method="post" onsubmit="return ck2()">
+
+                        <ul>
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="71%" height="40" align="right">
+                                        <label for="textfield">
+                                        </label>
+                                        <input name="keyleft" type="text" id="keyleft" value="请输入关键字" size="20" onfocus="javascript:this.value=''" onblur="javascript:if(this.value=='')this.value='请输入关键字'" />
+                                    </td>
+                                    <td width="29%" align="left">
+                                        &nbsp;
+                                        <input name="button" type="submit" class="ssan" id="button" value="提交" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </ul>
+                        </form>
+                    </div>
+                    <div class="djph">
+                        <div class="ht02">
+                            <span class="st14cbai"><a href="#">最新发布</a></span>
+                        </div>
+                        <ul>
+                           {foreach $tops as $v}
+                           <li><a href='content.php?article_id={$v.article_id}' title='{$v.title}' target='_blank'>{$v.title|trUncate:18}</a></li>
+                           {/foreach}
+
+
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="lb_right">
+                    <div class="xxlb">
+                        <div class="ht05">
+                            <span class="st14clan">
+                                <img src="{$vp}/images/before.gif" width="11" height="11" />&nbsp;<a>{$type_name}</a></span>
+                            <p class="st12hui">
+                                你的当前位置：<a href="index.php">首页</a> > {$type_name}</p>
+                        </div>
+                        <ul>
+
+
+                           {foreach $goods_list as $v}
+                             <li><span>{$v.add_time|date_format:"%Y-%m-%d"}</span>·<a href='content.php?article_id={$v.article_id}' title='{$v.title}' target='_blank' style='color:#000000;font-size:12px'>{$v.title|trUncate:40}</a></li>
+                           {/foreach}
+
+                        </ul>
+                        <p id="td_page" class="page"> <span style='color:Red;'>1</span><span><a href='/ArticleList.aspx?page=2&id=89'>2</a></span><span><a href='/ArticleList.aspx?page=3&id=89'>3</a></span><span><a href='/ArticleList.aspx?page=2&id=89'>下一页</a></span><span><a href='/ArticleList.aspx?page=6&id=89'>末页</a></span></p>
+                    </div>
+                </div>
+            </div>
+
+{include file="footer.html"}
+</body>
+</html>

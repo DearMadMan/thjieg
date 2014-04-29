@@ -1,0 +1,57 @@
+    <div id="bg">
+    <div id="wrap">
+
+            <div class="top">
+                <div class="top1">
+                    <a onclick="SetHome(window.location)" href="javascript:void(0)">设为首页</a>
+                    |
+                    <a onclick="AddFavorite(window.location,document.title)"
+            href="javascript:void(0)">加入收藏</a>
+                    今天是：
+                <script src="{$vp}/js/time.js"></script>
+                </div>
+                <img src="{$vp}/images/xtb1.jpg" width="13" height="12" />
+                &nbsp;&nbsp;欢迎您访问太和县桔梗产业集群技术服务中心!
+
+            </div>
+            <div class="banner">
+    <img src="{$vp}/images/99.jpg" height="135" width="1000" alt="">
+          </div>
+        <div class="menu">
+        <ul>
+            <li class="dhx">
+                <a href="index.php"  class="st14cbai1">首页</a>
+            </li>
+            {foreach $article_types as $v}
+             <li class="dhx" {if $v@last} style="background-image:none" {/if}>
+                <a href="article.php?article_type_id={$v.article_type_id}" class="st14cbai1">{$v.type_name}</a>
+            </li>
+            {/foreach}
+        </ul>
+       </div>
+    <div class="gd">
+
+
+
+        <form id="form1" action="result.aspx" method="post" onsubmit="return ck()">
+            <div class="ss">
+                <span class="st12cl">站内搜索</span>
+                <input name="keytop" id="keytop" type="text" size="16" value="请输入关键字"  onfocus="javascript:this.value=''" onblur="javascript:if(this.value=='')this.value='请输入关键字'" />
+                &nbsp;
+                <input name="button" type="submit" style="background-image:url({$vp}/images/ss.jpg); width:60px; height:20px; border:0px" id="button" value="" />
+            </div>
+        </form>
+        <img src="{$vp}/images/xtb2.jpg" width="15" height="14" />
+        &nbsp;&nbsp;
+        <span class="st12cl">
+            <a href="/ArticleList.aspx?id=148">滚动新闻：</a>
+        </span>
+        <marquee onmouseover="this.stop()" onmouseout="this.start()" scrollamount="3" scrolldelay="100"
+        direction="left" height="30" width="500">
+           {foreach $round as $v}
+            ·
+            <a href='content.php?article_id={$v.article_id}' target='_blank' style='color:#000000'>{$v.title}</a>
+            &nbsp;
+            {/foreach}
+        </marquee>
+    </div>

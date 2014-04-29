@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50615
 File Encoding         : 65001
 
-Date: 2014-04-27 13:52:00
+Date: 2014-04-29 14:58:22
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -42,11 +42,14 @@ CREATE TABLE `article` (
   `content` text,
   `add_time` varchar(255) DEFAULT '',
   PRIMARY KEY (`article_id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of article
 -- ----------------------------
+INSERT INTO `article` VALUES ('1', '2', '【每日团购，天天精选】金御诚负离子健康锗手链（女士）', '<p><img alt=\"\" src=\"http://test.com/images/20140428/139866710701502685.jpg\" style=\"height:500px; width:500px\" /><img alt=\"\" src=\"http://test.com/images/20140428/139866713303185119.jpg\" style=\"height:200px; width:200px\" /></p>\r\n', '1398667138');
+INSERT INTO `article` VALUES ('2', '1', '【聚划算】御诚电磁辐射多功能防护卡，仅此一次！9.9元还包邮！！', '<p><img alt=\"\" src=\"http://test.com/images/20140428/139866717101991271.jpg\" style=\"height:483px; width:466px\" /></p>\r\n', '1398667178');
+INSERT INTO `article` VALUES ('3', '1', '【聚划算】御诚电磁辐射多功能防护卡，仅此一次！9.9元还包邮！！!!', '', '1398741264');
 
 -- ----------------------------
 -- Table structure for article_type
@@ -82,5 +85,5 @@ CREATE TABLE `configs` (
 -- ----------------------------
 -- Records of configs
 -- ----------------------------
-INSERT INTO `configs` VALUES ('1', 'default_template', 'default', null);
+INSERT INTO `configs` VALUES ('1', 'default_template', 'new', null);
 INSERT INTO `configs` VALUES ('2', 'xiaobianyu', '大家早安啊~~新的一天开始，米可前段时间心情很糟糕，但是每次购物之后心情就会轻松一下，购物果然是女人最有效的发泄方式哦~如果各位MM们心情不好的时候，那么就把自己的购物车清一清吧~~', null);

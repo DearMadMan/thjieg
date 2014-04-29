@@ -63,6 +63,13 @@ function ShowTips($msg)
 	$GLOBALS['smarty']->display("tips.mad");
 	die();
 }
+
+function GetTop($table,$num)
+{
+    $sql="select * from $table order by add_time limit 0,$num ";
+    $res=$GLOBALS['db']->getAll($sql);
+    return $res;
+}
 function GetRankName($users)
 {
     $sql="select * from ecs_user_rank where rank_id='".$users['user_rank']."'";

@@ -12,7 +12,7 @@ if(isset($_REQUEST['article_id']))
     $article_id=intval($_REQUEST['article_id']);
 }
 
-$sql="select * from article where article_id='$article_id'";
+$sql="select a.*,b.type_name from article as a left join article_type as b on a.article_type_id=b.article_type_id where a.article_id='$article_id'";
 $article=$db->getRow($sql);
 if(empty($article))
 {
@@ -21,7 +21,13 @@ if(empty($article))
 
 $smarty->assign("article",$article);
 $categroy_list=GetCategroyList();
+
 $smarty->assign("categroy_list",$categroy_list);
+
+$tops=GetTop10($article['article_type_id']);
+
+$smarty->assign("tops",$tops);
+
 $smarty->display("content.html");
 
 function GetCategroyList()
@@ -31,7 +37,12 @@ function GetCategroyList()
     return $res;
 }
 
-
+function GetTop10($type_id)
+{
+    $sql="select * from article where article_type_id=$type_id order by add_time desc limit 0,10";
+    $res=$GLOBALS['db']->getAll($sql);
+    return $res;
+}
 
 
 ?>

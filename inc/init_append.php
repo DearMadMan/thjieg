@@ -28,6 +28,23 @@ else
 
 $sql="select * from article_type ";
 $article_types=$db->getAll($sql);
+$smarty->registerPlugin("function","GetTops","GetTops");
 $smarty->assign("article_types",$article_types);
+
+
+//获取滚动新闻
+
+$round=GetTop("article",5);
+$smarty->assign("round",$round);
+
+
+//获取top新闻
+function GetTops($params, $smarty)
+{
+    $sql="select * from article where article_type_id=".$params['article_type_id'];
+    $res=$GLOBALS['db']->getAll($sql);
+    $smarty->assign('child_article_list',$res);
+   return "";
+}
 
 ?>

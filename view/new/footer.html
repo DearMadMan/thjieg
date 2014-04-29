@@ -1,0 +1,23 @@
+<div class="clearfloat"></div>
+<div class="footer">
+<div class="foot_bot">
+    <p>
+        <a href="Default.aspx">首 页</a>
+        |
+        {foreach $article_types as $v}
+        <a href="article.php?article_type_id={$v.article_type_id}">{$v.type_name}</a>
+        {if $v@last}{else}|{/if}
+        {/foreach}
+        <br />
+        本网站是服务于中国中小企业的政府公益性网站，因部分信息来源于网络，如有侵权请来邮、来电告知，本站将立即改正。
+        <br />
+        版权所有: 太和县桔梗产业集群技术服务中心
+        <br />
+        地址：安徽省阜阳市太和县 李兴镇人民东路76号  电话： 86 558 8391062 传真：86 0558 8391222
+        <br />
+
+    </p>
+</div>
+</div>
+</div>
+</div>

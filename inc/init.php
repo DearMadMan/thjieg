@@ -120,7 +120,7 @@ $smarty=new Smarty();
 $smarty->setCacheDir(SMARTY_PATH."cache".DIRECTORY_SEPARATOR);
 $smarty->setConfigDir(SMARTY_PATH."configs".DIRECTORY_SEPARATOR);
 $smarty->setCompileDir(SMARTY_PATH."compile".DIRECTORY_SEPARATOR);
-$smarty->setTemplateDir(VIEW_PATH."default".DIRECTORY_SEPARATOR);
+
 $GLOBALS['smarty'] = $smarty;
 
 //mysql
@@ -131,6 +131,7 @@ $gbs['madman']=array();
 
 //dbconfigs
 GetConfigsFromDatabase($config_dbname);
+$smarty->setTemplateDir(VIEW_PATH.$GLOBALS['configs']['default_template'].DIRECTORY_SEPARATOR);
 $smarty->assign('mad_configs',$GLOBALS['configs']);
 $smarty->assign('view_path',"view/".$GLOBALS['configs']['default_template']);
 $smarty->assign('vp',"view/".$GLOBALS['configs']['default_template']);

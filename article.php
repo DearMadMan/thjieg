@@ -62,7 +62,9 @@ $smarty->assign("type_name",$type_name);
     {
          $smarty->assign("goods_list",array());
     }
-  $categroy_list=GetCategroyList();
+$categroy_list=GetCategroyList();
+$tops=GetTop10($article_type_id);
+$smarty->assign("tops",$tops);
 $smarty->assign("categroy_list",$categroy_list);
 $smarty->assign("article_type_id",$article_type_id);
 $smarty->display("article.html");
@@ -70,6 +72,13 @@ $smarty->display("article.html");
 function GetCategroyList()
 {
     $sql="select * from article_type";
+    $res=$GLOBALS['db']->getAll($sql);
+    return $res;
+}
+
+function GetTop10($type_id)
+{
+    $sql="select * from article where article_type_id=$type_id order by add_time desc limit 0,10";
     $res=$GLOBALS['db']->getAll($sql);
     return $res;
 }
